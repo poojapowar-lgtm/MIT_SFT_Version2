@@ -56,8 +56,8 @@ const Footer = () => {
             <div className="contact-admission">
               <ul className="page-list">
                 <span className="footer-heading">Contact Us</span>
-                <li>+91-96655 43913</li>
-                <li>+91-93253 40706</li>
+                <li>+91-9021080157</li>
+                <li>+91-8669982310</li>
               </ul>
 
               <ul className="page-list">
@@ -83,6 +83,13 @@ const Footer = () => {
 
         {/* SECTION 3 */}
         <div className="footer-section footer-right">
+          <div className="footer-text vertical-words">
+            <img
+              src="/assets/images/banner/footer-gif.gif"
+              alt="Lights Camera and Action"
+              className="vertical-image"
+            />
+          </div>
           <button
             onClick={() => navigate("/apply-now")}
             className="button"
@@ -90,31 +97,18 @@ const Footer = () => {
           >
             Join Now
           </button>
-          {/* <p className="footer-text vertical-words">
-            <span>Lights</span>
-            <span>Camera</span>
-            <span>and Action</span>
-          </p> */}
-          <p className="footer-text vertical-words">
-            <img
-              src="/assets/images/background/footer_icon.svg"
-              alt="Lights Camera and Action"
-              className="vertical-image"
-            />
-          </p>
         </div>
       </div>
-       <span
-          className="back-to-top"
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          aria-label="Back to top"
-        >
-         <LuArrowUp />
-        </span>
+      <span
+        className="back-to-top"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        aria-label="Back to top"
+      >
+        <LuArrowUp />
+      </span>
       <p className="footer-bottom">
         Copyright © 2026 All rights reserved by Website Department MIT-ADT
         University.
-       
       </p>
     </footer>
   );

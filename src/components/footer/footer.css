@@ -1,6 +1,7 @@
 .footer {
-  background: #000 url("/public/assets/images/background/footer.webp") no-repeat
-    right center / auto 100%;
+  /* background: #000 url("/public/assets/images/background/footer.webp") no-repeat
+    right center / auto 100%; */
+    background-color: #520c17;
   padding: clamp(15px, 2vw, 30px);
   box-shadow: 0 -6px 15px rgba(255, 255, 255, 0.35);
 }
@@ -11,7 +12,7 @@
   max-width: fit-content;
   justify-content: space-between;
   margin: 0 auto;
-  gap: clamp(10px, 15vw, 150px);
+  gap: clamp(10px, 15vw, 50px);
 }
 
 /* .footer-section {
@@ -37,7 +38,7 @@
 .footer-address {
   font-size: clamp(12px, 1.2vw, 16px);
   margin-bottom: clamp(10px, 1vw, 20px);
-  text-align: center;
+  text-align: left;
   color: white;
 }
 
@@ -89,19 +90,24 @@
 
 /* RIGHT */
 .footer-right {
-  position: relative;
   display: flex;
   flex-direction: column;
-  text-align: right;
-  padding-left: clamp(50px, 15vw, 200px);
+  justify-content: center;
+  align-items: center;  
 }
-#footer-btn {
+
+.vertical-image{
+  height: 320px;
+  margin: 0;
+}
+
+/* #footer-btn {
   position: absolute;
   right: clamp(5px, 1vw, 10px);
   top: clamp(15px, 2vw, 30px);
-}
+} */
 
-.footer-image {
+/* .footer-image {
   width: 100%;
   max-width: clamp(150px, 50vw, 260px);
   border-radius: clamp(8px, 1vw, 12px);
@@ -123,11 +129,11 @@
   font-style: italic;
   text-shadow: 3px 1px 0 goldenrod;
   margin-bottom: clamp(15px, 1.5vw, 30px);
-}
+} */
 
 /* BOTTOM */
 .footer-bottom {
-  font-size: clamp(8px, 1.2vw, 14px);
+  font-size: clamp(9px, 1.2vw, 16px);
   padding-top: clamp(5px, 1vw, 10px);
   border-top: 1px solid #535353;
   text-align: center;

@@ -22,7 +22,9 @@ const VishwarajStudio = () => {
   return (
     <div className="vj-section">
       <DividerWithTitle title="Where Student Sets Become Real Stories" />
-      <h3 className="subtitle">Vishwaraj Studio</h3>
+      <h3 className="subtitle">
+        Vishwaraj Studio, India's Largest Shooting Studio For A Film School
+      </h3>
       <section
         className="vishwaraj-wrapper"
         style={{
@@ -57,8 +59,7 @@ const VishwarajStudio = () => {
           <div className="studio-section">
             <div>
               <p className="studio-text">
-                One of Pune's Largest Professional Shooting Studios - A fully
-                air-conditioned shooting floor enables large scale set
+                A fully air-conditioned shooting floor enables large scale set
                 construction, controlled lighting, and immersive production
                 training. The campus houses state of the art production and post
                 production facilities, including high end digital cameras,

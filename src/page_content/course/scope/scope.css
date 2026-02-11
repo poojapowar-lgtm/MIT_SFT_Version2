@@ -10,7 +10,6 @@
   align-items: center;
 }
 
-
 .scope-img {
   width: clamp(280px, 40vw, 500px);
   height: auto;

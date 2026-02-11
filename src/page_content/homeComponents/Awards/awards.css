@@ -5,7 +5,7 @@
 }
 
 .award-top{
-    background-color: black;
+    background-color: #520c17;
     margin: 20px 0;
 }
 /* Rows */
@@ -59,7 +59,6 @@
 .film-name {
   margin: 0;
   color: whitesmoke;
-  font-size: clamp(14px, 1.5vw, 18px);
   font-weight: 600;
 }
 
@@ -68,13 +67,12 @@
   line-height: normal;
   font-size: clamp(10px, 1.2vw, 16px);
   font-weight: 400;
-  color: #696984;
+  /* color: #696984; */
+  color: goldenrod;
 }
 
 .student-name {
   margin: 0;
-  font-size: clamp(12px, 1.5vw, 18px);
-  font-weight: 400;
   color: white;
 }
 

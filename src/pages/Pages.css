@@ -42,7 +42,7 @@ html {
 .innerpage-title {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 1px;
-  font-size: clamp(18px, 2vw, 35px);
+  font-size: clamp(15px, 2vw, 30px);
   text-align: center;
   font-weight: 400;
   color: #003153;
@@ -83,7 +83,7 @@ p {
   font-size: clamp(14px, 2.5vw, 20px);
   font-weight: 600;
   margin: 10px;
-  color: black;
+  color: #003153;
 }
 
 .common-title {
@@ -95,8 +95,9 @@ p {
   color: #003153;
 }
 
-span {
-  color: #003153;
+.span-text {
+  color: goldenrod;
+  margin: 10px;
 }
 
 /* List */

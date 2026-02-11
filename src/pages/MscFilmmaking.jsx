@@ -91,7 +91,7 @@ const MscFilmmaking = () => {
         <div className="page-content">
           <section ref={aboutRef} id="about-course">
             <AboutCourse
-              title="About Course"
+              title="About M.Sc. in Filmmaking"
               headerRight={
                 <>
                   <p>Eligibility:Any Graduate </p>

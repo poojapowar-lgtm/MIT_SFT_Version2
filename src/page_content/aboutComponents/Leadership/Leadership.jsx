@@ -27,8 +27,6 @@ const Leadership = () => {
             emphasizes innovation, imagination, and a global perspective across
             all aspects of learning.
           </p>
-
-        
         </div>
 
         {/* Right Content */}
@@ -41,30 +39,26 @@ const Leadership = () => {
 
           <div className="leader-info">
             <h4 className="ld-name">Hon’ble Prof. Dr. Mangesh T. Karad</h4>
-            <p>
-              <span>(Executive President)</span>
+            <p className="span-text">
+              (Pro-Chancellor and Executive President)
             </p>
-            <p>
-              with Shri Javed Akhtar Sahab
-              <span>, poet, lyricist and screenwriter </span>
+            <p className="span-text">
+              with Shri Javed Akhtar Sahab , poet, lyricist and screenwriter
             </p>
           </div>
         </div>
-
-        
       </div>
-        <p>
-            Its mission is realized through a dynamic academic ecosystem that
-            blends artistic expression, technical mastery, and industry exposure
-            empowering students to excel both behind and in front of the camera.
-            With structured curriculum, intensive production practice, and
-            engagement with professional filmmaking practices, the school equips
-            students to meet the evolving demands of film, television, and
-            digital platforms. The School of Film & Television will continue to
-            develop skilled, responsible, and visionary media professionals who
-            uphold the values of excellence, integrity, and innovation that &
-            define our university.
-          </p>
+      <p>
+        Its mission is realized through a dynamic academic ecosystem that blends
+        artistic expression, technical mastery, and industry exposure empowering
+        students to excel both behind and in front of the camera. With
+        structured curriculum, intensive production practice, and engagement
+        with professional filmmaking practices, the school equips students to
+        meet the evolving demands of film, television, and digital platforms.
+        The School of Film & Television will continue to develop skilled,
+        responsible, and visionary media professionals who uphold the values of
+        excellence, integrity, and innovation that & define our university.
+      </p>
     </div>
   );
 };

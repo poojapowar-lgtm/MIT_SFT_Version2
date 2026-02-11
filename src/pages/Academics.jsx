@@ -8,8 +8,8 @@ const Academics = () => {
   const location = useLocation();
 
   const menu = [
-    { name: "School Leadership Message", path: "leadership-message" },
-    { name: "Faculty Members", path: "faculty" },
+    // { name: "School Leadership Message", path: "leadership-message" },
+    { name: "Faculty", path: "faculty" },
     { name: "Academic Structure", path: "academic-structure" },
     { name: "Learning Resources", path: "learning-resourses" },
     { name: "Event & Workshops", path: "event-workshops" },
@@ -19,8 +19,8 @@ const Academics = () => {
 
   /* Only title changes based on route */
   const bannerTitleMap = {
-    "leadership-message": "School Leadership Message",
-    "faculty": "Faculty Members",
+    // "leadership-message": "School Leadership Message",
+    "faculty": "Faculty",
     "academic-structure": "Academic Structure",
     "learning-resourses": "Learning Resources",
     "event-workshops": "Event & Workshops",
@@ -35,7 +35,7 @@ const Academics = () => {
 
     return matchedKey
       ? bannerTitleMap[matchedKey]
-      : "School Leadership Message";
+      : "Faculty";
   };
 
   const title = getBannerTitle();

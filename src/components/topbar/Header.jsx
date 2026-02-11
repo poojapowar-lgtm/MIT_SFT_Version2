@@ -17,15 +17,13 @@ const Header = ({ onMenuOpen }) => {
           />
 
           <div className="topbar-content">
-            {/* <span className="subtitle">MIT - ADT University , Pune</span> */}
-            <h2 class="innerpage-title" style={{margin:"0"}}>MIT-SFT</h2>
-            <h1 className="main-title">School Of  Film and Television</h1>
+            <h1 className="main-title">School Of  <br/>Film and Television</h1>
           </div>
         </div>
 
         <div className="right-logos">
               <img
-            src="/assets/icons/mit_logo_black.webp"
+            src="/assets/icons/mit_logo.webp"
             alt="College Logo"
             className="mit-logo"
           />

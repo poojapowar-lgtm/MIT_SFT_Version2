@@ -1,7 +1,7 @@
 import React from "react";
 import { Route } from "react-router-dom";
 import Academics from "../pages/Academics";
-import Message from "../page_content/academicsComponents/Message/Message";
+// import Message from "../page_content/academicsComponents/Message/Message";
 import Faculty from "../page_content/academicsComponents/faculty/Faculty";
 import Learning from "../page_content/academicsComponents/learning/Learning";
 import Structure from "../page_content/academicsComponents/structure/Structure";
@@ -11,8 +11,8 @@ import Placements from "../page_content/academicsComponents/placements/Placement
 
 export const AcademicsRoutes = (
   <Route path="academics" element={<Academics />}>
-    <Route index element={<Message />} />
-    <Route path="leadership-message" element={<Message />} />
+    <Route index element={<Faculty />} />
+    {/* <Route path="leadership-message" element={<Message />} /> */}
     <Route path="faculty" element={<Faculty />} />
     <Route path="learning-resourses" element={<Learning />} />
     <Route path="academic-structure" element={<Structure />} />

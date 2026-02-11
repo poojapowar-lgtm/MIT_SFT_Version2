@@ -31,7 +31,7 @@
 .program-card:hover {
   transform: scale(1.02);
   box-shadow: 0 8px 20px rgba(255, 255, 255, 0.35);
-  background-color: #b22222;
+  background-color: #520c17;
 }
 .program-card:hover .subtitle,
 .program-card:hover .pg-text{

@@ -90,7 +90,7 @@ const BscFilmmaking = () => {
         <div className="page-content">
           <section ref={aboutRef} id="about-course">
             <AboutCourse
-              title="About Course"
+              title="About  B.Sc. in Filmmaking"
               headerRight={
                 <>
                   <p>Eligibility: 10 + 2 Any Stream or Equivalent</p>

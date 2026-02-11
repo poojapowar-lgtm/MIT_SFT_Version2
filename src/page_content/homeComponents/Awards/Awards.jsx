@@ -113,7 +113,7 @@ const Awards = () => {
 
   return (
     <div className="awards-section">
-      <DividerWithTitle title="Award-Winning Stories by Our Students" />
+      <DividerWithTitle title="Award-Winning Films by Our Students" />
 
       {/* First Row (5 cards) */}
       <div className="award-top">
