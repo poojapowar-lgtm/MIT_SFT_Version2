@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
 import { LuArrowUp } from "react-icons/lu";
@@ -47,10 +48,18 @@ const Footer = () => {
           <div className="footer-links">
             <ul className="page-list">
               <span className="footer-heading">Quick Links</span>
-              <li>About Us</li>
-              <li>Blogs</li>
-              <li>News</li>
-              <li>Courses</li>
+              <li>
+                <Link to="/about">About Us</Link>
+              </li>
+              <li>
+                <Link to="/academics">Academics</Link>
+              </li>
+              <li>
+                <Link to="/short-film">Short Films</Link>
+              </li>
+              <li>
+                <Link to="/admission">Admission</Link>
+              </li>
             </ul>
             {/* Contact + Admission Row */}
             <div className="contact-admission">

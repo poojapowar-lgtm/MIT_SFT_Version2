@@ -8,8 +8,8 @@
 }
 
 .courses-header-right p{
-  color: #003153;
-  font-weight: 500;
+  color: goldenrod;
+  font-weight: 600;
   margin: clamp(5px, 1vw,10px);
 }
 /* Specialization Section */

@@ -33,29 +33,6 @@ const VishwarajStudio = () => {
       >
         {/* Content */}
         <div className="studio-content">
-          {/* left sliding images */}
-
-          {/* <div className="studio-imgs">
-          {images.map((img, index) => {
-            const isActive = index === activeIndex;
-            const isPrev =
-              index === (activeIndex - 1 + images.length) % images.length;
-
-            return (
-              <img
-                key={index}
-                src={img}
-                alt="National Award"
-                className={`slide ${isActive ? "active" : ""} ${
-                  isPrev ? "prev" : ""
-                }`}
-              />
-            );
-          })}
-        </div> */}
-
-          {/* Right Content */}
-
           <div className="studio-section">
             <div>
               <p className="studio-text">
@@ -73,8 +50,12 @@ const VishwarajStudio = () => {
             <button className="button" id="studio-btn">
               More Facilites
             </button>
+              
           </div>
+
+       
         </div>
+         <p className="size"> Size:(110 x 90 x 80 sq. ft.)</p>
       </section>
     </div>
   );

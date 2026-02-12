@@ -117,7 +117,9 @@ const Admission = () => {
 
           {/* Section 1 */}
           <section className="admission-section">
-            <h3 style={{ textAlign: "center" }} className="subtitle">Admission Details</h3>
+            <h3 style={{ textAlign: "center" }} className="subtitle">
+              Admission Details
+            </h3>
 
             <table className="admission-table">
               <thead>
@@ -129,6 +131,11 @@ const Admission = () => {
               </thead>
               <tbody>
                 <tr>
+                  <td>B.A. in Screen Acting</td>
+                  <td>3 Years</td>
+                  <td>10+2 (Any Stream)</td>
+                </tr>
+                <tr>
                   <td>B.Sc. in Film Making</td>
                   <td>3 Years</td>
                   <td>10+2 (Any Stream)</td>
@@ -138,11 +145,6 @@ const Admission = () => {
                   <td>2 Years</td>
                   <td>Any Graduate</td>
                 </tr>
-                <tr>
-                  <td>B.A. in Screen Acting</td>
-                  <td>3 Years</td>
-                  <td>10+2 (Any Stream)</td>
-                </tr>
               </tbody>
             </table>
           </section>
@@ -150,7 +152,7 @@ const Admission = () => {
           {/* Section 2 */}
           <section className="admission-section">
             <div className="info-box">
-              <p style={{textAlign:"center"}}>
+              <p style={{ textAlign: "center" }}>
                 Aspirants seeking admission must visit www.mituniversity.ac.in
                 and register by clicking on the Apply Now link.
               </p>
@@ -219,7 +221,10 @@ const Admission = () => {
                     className="faq-que"
                     onClick={() => toggleAccordion(index)}
                   >
-                  <p> <span>{item.question}</span></p> 
+                    <p>
+                      {" "}
+                      <span>{item.question}</span>
+                    </p>
                     <span className="faq-icon">
                       {activeIndex === index ? (
                         <FiChevronUp />

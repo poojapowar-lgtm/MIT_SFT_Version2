@@ -116,6 +116,7 @@
 
 .faq-que p{
   color: #003153;
+  font-weight: 600;
 }
 .faq-icon {
   font-size: clamp(20px, 4vw, 30px);  

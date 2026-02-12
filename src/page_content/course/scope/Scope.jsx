@@ -23,7 +23,7 @@ const Scope = ({ title, children, imageSrc, ctaPath }) => {
       {/* apply btn */}
       <div className="scope-cta">
         <h3 className="btn-heading ">
-          Start your story here and begin your journey as a filmaker !
+          Every Great Film Begins with a First Frame, Start Yours Here !
         </h3>
         <button className="button" onClick={() => navigate(ctaPath)}>
           Apply Now

@@ -161,6 +161,11 @@
   background-color: rgb(179, 43, 179);
 }
 
+li a {
+  text-decoration: none;   
+  color: inherit;       
+}
+
 @media (max-width: 1400px) {
   .footer-top {
     gap: clamp(10px, 5vw, 40px);

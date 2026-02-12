@@ -16,7 +16,6 @@ html {
 .page-layout .sidebar {
   position: sticky;
   box-shadow: 10px 0 9px -9px rgba(0, 0, 0, 0.35);
-
   top: clamp(5px, 1.5vw, 20px);
   padding: clamp(10px, 2.5vw, 30px) 5px clamp(15px, 3vw, 80px)
     clamp(5px, 2vw, 30px);
