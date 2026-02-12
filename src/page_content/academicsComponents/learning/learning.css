@@ -1,12 +1,70 @@
-.learning-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: clamp(20px, 2vw, 40px) clamp(15px, 1.5vw, 20px);
+/* .card-hg {
+  border-radius: 18px 18px 0 0;
+  background: #520c17;
+  color: goldenrod;
+  padding: 12px 15px;
+  margin: 0;
+} */
+
+/* underline */
+.card-hg::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 1.2px;
+  background-color: #520c17;
+  margin: 10px auto;
 }
 
-/* GRID */
-.learning-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: clamp(25px, 3vw, 40px);
+.ld-card {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #520c17;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* important for circle */
+  padding: 0;
+  transition: all 0.4s ease;
+  border: none;
+}
+
+/* Top Half */
+.ld-card .innerpage-hg {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 0px 10px;
+  text-align: center;
+}
+
+/* Bottom Half */
+.card-link-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: #003153;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+/* 🔁 Hover Swap Effect */
+.ld-card:hover .innerpage-hg {
+  background-color: white;
+  color: #003153;
+}
+
+.ld-card:hover .card-link-btn {
+  background-color: #520c17;
+  color: lightblue;
+  text-decoration: underline;
+}
+
+/* Optional hover scale */
+.ld-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(82, 12, 23, 0.4);
 }

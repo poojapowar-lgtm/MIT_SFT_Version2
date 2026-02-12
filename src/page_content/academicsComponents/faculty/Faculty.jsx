@@ -6,42 +6,43 @@ const facultyData = [
     id: 1,
     name: "Prof. Manish Joshi",
     designation: "Dy. Director",
+    photo: "/assets/images/faculty/Prof. Manish Joshi .webp",
   },
   {
     id: 2,
     name: "Prof. Gyanesh Kelkar",
     designation: "Associate Professor, Sound Recording &amp; Designing.",
+    photo: "/assets/images/faculty/Prof. Gyanesh Kelkar Suit image New.webp",
   },
   {
     id: 3,
     name: "Prof. Krishnendu Sarkar",
     designation: "Associate Professor, Editing.",
+    photo: "/assets/images/faculty/Prof. Krishnendu Sarkar Suit Image New.webp",
   },
   {
     id: 4,
     name: "Prof. Santosh Swarnakar",
     designation: "Associate Professor, Cinematography.",
+    photo: "/assets/images/faculty/Prof. Santosh Swarnakar Image New.webp",
   },
-  ,
-  // {
-  //   id: 5,
-  //   name: "Prof. Dorothy Varma",
-  //   designation: "Assistant Professor, Direction.",
-  // },
   {
     id: 6,
     name: "Prof. Amarpal Fauzdar",
     designation: "Assistant Professor, Screenplay Writing.",
+    photo: "/assets/images/faculty/Prof. Amarpal Fauzdar Final New.webp",
   },
   {
     id: 7,
     name: "Prof. Prasad Thorat",
     designation: "Assistant Professor, VFX &amp; Motion Graphics.",
+    photo: "/assets/images/faculty/Prof. Prasad Thorat Suit Image New.webp",
   },
   {
     id: 8,
     name: "Prof. Sajeeb Majumder",
     designation: "Asst. Prof. Art Direction & Production Design",
+    photo: "/assets/images/faculty/Prof. Sajeeb Majumder.webp",
   },
 ];
 
@@ -110,9 +111,13 @@ const Faculty = () => {
           }`}
         >
           {facultyData.map((faculty) => (
-            <div className="common-card " key={faculty.id}>
-              <h5 className="common-title ">{faculty.name}</h5>
-              <p>{faculty.designation}</p>
+            <div className="common-card faculty-card" key={faculty.id}>
+              <div className="faculty-img-wrapper">
+                <img src={faculty.photo} alt={faculty.name} />
+              </div>
+
+              <h5 className="common-title">{faculty.name}</h5>
+              <p className="common-card-desc" style={{margin:"0px", color:"#003153"}}>{faculty.designation}</p>
             </div>
           ))}
         </div>

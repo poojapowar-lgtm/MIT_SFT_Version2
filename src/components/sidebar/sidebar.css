@@ -11,6 +11,11 @@
   text-align: start;
 }
 
+.sidebar li a.active-link {
+  background-color: #520c17;
+  color: goldenrod;
+}
+
 .sidebar li a,
 .sidebar li .sidebar-link {
   text-decoration: none;
@@ -27,14 +32,14 @@
 
 .sidebar li.active a,
 .sidebar li a:hover {
-background-color: #b22222;
-color: white;
+  background-color: #520c17;
+  color: goldenrod;
 }
 
 .sidebar li.active .sidebar-link,
 .sidebar li .sidebar-link:hover {
-background-color: #b22222;
-color: white;
+  background-color: #520c17;
+  color: goldenrod;
 }
 
 /* Mobile menu icon */
@@ -42,7 +47,7 @@ color: white;
   display: none;
   font-size: 28px;
   cursor: pointer;
-  color: #b22222;
+  color: #520c17;
   padding: 10px 0 0 10px;
 }
 
@@ -78,7 +83,8 @@ color: white;
     left: -100%;
     width: 260px;
     height: 100vh;
-    background: #111;
+  
+    background: #520c17;
     z-index: 999;
     transition: left 0.3s ease;
   }
@@ -101,6 +107,7 @@ color: white;
   .sidebar li .sidebar-link {
     padding-left: 0;
     line-height: 1;
+     color: white;
   }
 }
 

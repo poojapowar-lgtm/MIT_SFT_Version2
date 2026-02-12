@@ -37,10 +37,14 @@ const RajKapoor = () => {
                 what was historically known as Rajbaug, the family estate of the
                 legendary filmmaker Raj Kapoor.It was on this land that Kapoor
                 conceptualised, planned, and created several of his most iconic
-                films, including Bobby, Mera Naam Joker, Satyam Shivam Sundaram,
-                Prem Rog, and later Prem Granth. Renowned filmmaker Yash Chopra
-                also filmed portions of Kala Patthar here, further cementing
-                Rajbaug’s place in India’s cinematic heritage.
+                films, including{" "}
+                <b>
+                  Bobby, Mera Naam Joker, Satyam Shivam Sundaram, Prem Rog, and
+                  later Prem Granth.
+                </b>{" "}
+                Renowned filmmaker Yash Chopra also filmed portions of{" "}
+                <b>Kala Patthar</b> here, further cementing Rajbaug’s place in
+                India’s cinematic heritage.
               </p>
               <p className={expanded ? "expanded" : "collapsed"}>
                 Raj Kapoor’s association with this land was deeply personal and
@@ -56,7 +60,7 @@ const RajKapoor = () => {
                 <p>
                   The family bungalow on the estate, preserved by the
                   University, is noted as the location where the iconic song
-                  “Hum Tum Ek Kamre Mein Band Ho” was filmed, further
+                  <b>“Hum Tum Ek Kamre Mein Band Ho”</b> was filmed, further
                   reinforcing the connection between Kapoor’s creative work and
                   the land that now houses the film school. This historical
                   association significantly enhances the cultural heritage value

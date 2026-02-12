@@ -10,7 +10,6 @@
 }
 /* Rows */
 .awards-row {
-
   display: grid;
   gap: clamp(12px, 2vw, 20px);
   justify-content: center;

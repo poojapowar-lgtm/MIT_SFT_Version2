@@ -34,35 +34,28 @@
   text-align: right;
 }
 .step-animate {
-  /* opacity: 0;
-  transform: translateX(-30px);
-  animation: stepReveal 0.7s ease-out forwards; */
-  animation: stepReveal 4s ease-in-out infinite;
+  animation: stepReveal 6s ease-in-out infinite;
 }
 
-/* @keyframes stepReveal {
-  to {
-    opacity: 1;
-    border-bottom: 1px solid white;
-    transform: translateX(0);
-  }
-} */
+.step-animate:hover {
+  animation-play-state: paused;
+}
 @keyframes stepReveal {
   0% {
     opacity: 1;
-    transform: translateX(clamp(10px, 1vw, 30px)); 
-     border-bottom: 1px solid white;
+    transform: translateX(clamp(10px, 1vw, 30px));
+    border-bottom: 1px solid white;
   }
 
   50% {
     opacity: 0;
     transform: translateX(0);
-  border-bottom: 1px solid transparent;
+    border-bottom: 1px solid transparent;
   }
 
   100% {
     opacity: 1;
-    transform: translateX(clamp(-10px, -1vw, -30px)); 
+    transform: translateX(clamp(-10px, -1vw, -30px));
     border-bottom: 1px solid white;
   }
 }

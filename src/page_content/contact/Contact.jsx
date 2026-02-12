@@ -21,7 +21,7 @@ const Contact = () => {
               <img src="/assets/images/icons/contact/gps.webp" alt="Address" />
             </div>
             <div className="content">
-              <h4 className="innerpage-subtitle" style={{color:"#003153"}}>Address</h4>
+              <h4 className="innerpage-subtitle">Address</h4>
               <p>
                 MIT ADT University Campus, Rajbaugh, Loni-Kalbhor,
                 <br />

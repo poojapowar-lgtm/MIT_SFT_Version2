@@ -1,6 +1,6 @@
 .vision-section {
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 /* Grid */
@@ -14,6 +14,15 @@
 
 /* Icon */
 .vision-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: clamp(35px, 5vw,70px);
+  height: clamp(35px, 5vw,70px);
+  padding: 5px 10px;
   color: goldenrod;
   font-size: clamp(25px, 1vw, 40px);
+  background-color: #520c17;
+  border-radius: 50%;
 }

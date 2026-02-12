@@ -164,7 +164,7 @@ const AwardStories = () => {
       <div className="awards-section">
         <DividerWithTitle title="Award-Winning Stories by Our Students" />
 
-        <div className="awards-row five">
+        <div className="awards-row five" style={{width:"100%", backgroundColor:"#520c17",margin:"50px auto",padding:"50px"}}>
           {awardsData.map((item, index) => (
             <div
               key={index}
