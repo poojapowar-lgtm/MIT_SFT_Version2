@@ -169,7 +169,7 @@ const AwardStories = () => {
             <div
               key={index}
               className="award-card"
-              style={{ backgroundImage: "url(/assets/images/home/awards_card.webp)" }}
+              style={{ backgroundImage: "url(/assets/images/home/award_card_s.svg)" }}
             >
               <div className="award-content">
                 <p className="film-name">{item.film}</p>
