@@ -6,7 +6,7 @@ const eventsData = [
   {
     id: 1,
     title: "Editing Department",
-    image: "/assets/images/programs (4).jpg",
+    image: "/assets/images/events/editing.webp",
     points: [
       "Workshop on Dialogue Editing",
       "Workshop on Narrative Editing",
@@ -18,7 +18,7 @@ const eventsData = [
   {
     id: 2,
     title: "Cinematography Department",
-    image: "https://picsum.photos/600/400",
+    image: "/assets/images/events/cinema.webp",
     points: [
       "Workshop on commercial lighting technique",
       "Workshop on Day-for-night Cinematography",
@@ -30,7 +30,7 @@ const eventsData = [
   {
     id: 3,
     title: "Direction & Screenplay Writing Department",
-    image: "https://picsum.photos/600/400",
+    image: "/assets/images/events/direction.webp",
     points: [
       "Workshop on Directing Actors",
       "Workshop on Advanced Screenwriting Workshop",
@@ -43,7 +43,7 @@ const eventsData = [
   {
     id: 4,
     title: "Sound Recording & Designing",
-    image: "https://picsum.photos/600/400",
+    image: "/assets/images/events/Sound-Mixing.webp",
     points: [
       "Workshop on Architectural Acoustics and Studio Design",
       "Workshop on 5.1 Surround Sound Mixing",
@@ -55,7 +55,7 @@ const eventsData = [
   {
     id: 5,
     title: "VFX & Motion Graphics",
-    image: "https://picsum.photos/600/400",
+    image: "/assets/images/events/vfx4.webp",
     points: [
       "Workshop on Unreal Engine for Virtual Production &amp; CGI Environment",
       "Workshop on Visual Effects and Virtual Production in Filmmaking",
@@ -80,13 +80,12 @@ const Events = () => {
                 className="event-left"
                 style={{ backgroundImage: `url(${event.image})` }}
               >
-                <div className="event-head">
-                  <h3 className="common-title">{event.title}</h3>
-                </div>
+  
               </div>
 
               {/* Right Content Section */}
               <div className="event-right">
+                  <h3 className="common-title" style={{margin:"0"}}>{event.title}</h3>
                 <ul className="page-list">
                   {event.points.map((point, index) => (
                     <li key={index}>{point}</li>

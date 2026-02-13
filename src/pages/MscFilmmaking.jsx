@@ -139,12 +139,20 @@ const MscFilmmaking = () => {
             </AboutCourse>
           </section>
 
-       <Specialization specializationTitle="Specializations Offered"/>
+          <Specialization specializationTitle="Specializations Offered" />
 
           <section ref={curriculumRef} id="curriculum">
-            <Curriculum
+            {/* <Curriculum
               title="Academic Curriculum"
               imageSrc="/assets/images/bts/Msc.webp"
+            > */}
+            <Curriculum
+              title="Academic Curriculum"
+              images={[
+                "/assets/images/bts/Msc.webp",
+                "/assets/images/bts/msc4.webp",
+                "/assets/images/bts/msc5.webp",
+              ]}
             >
               <p>
                 The M.Sc. in Filmmaking program deepens student’s artistic and
@@ -177,9 +185,18 @@ const MscFilmmaking = () => {
           </section>
 
           <section ref={futureRef} id="future">
-            <Scope
+            {/* <Scope
               title="Future Scope"
               imageSrc="/assets/images/bts/msc-shoot.webp"
+              ctaPath="/careers"
+            > */}
+            <Scope
+              title="Future Scope"
+              images={[
+                "/assets/images/bts/Msc-shoot.webp",
+                "/assets/images/bts/msc1.webp",
+                "/assets/images/bts/msc2.webp",
+              ]}
               ctaPath="/careers"
             >
               <p>

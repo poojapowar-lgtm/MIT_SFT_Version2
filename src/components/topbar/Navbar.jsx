@@ -116,9 +116,9 @@ const Navbar = ({ open, onClose }) => {
 
             <div>
               <p className="nav-contact">
-                09595124234
-                <br />
-                info@mituniversity.edu.in
+                <li>+91-9021080157</li>
+                <li>+91-8669982310</li>
+                <li>admissions.sft@mituniversity.edu.in</li>
               </p>
             </div>
           </address>

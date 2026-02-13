@@ -71,8 +71,8 @@ const Footer = () => {
 
               <ul className="page-list">
                 <span className="footer-heading">For Admission</span>
-                <li>admission.sft@mituniversity.edu.in</li>
-                <li>shraddha.kohad@mituniversity.edu.in</li>
+                <li>admissions.sft@mituniversity.edu.in</li>
+                {/* <li>shraddha.kohad@mituniversity.edu.in</li> */}
               </ul>
             </div>
           </div>

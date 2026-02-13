@@ -135,12 +135,16 @@ const BscFilmmaking = () => {
             </AboutCourse>
           </section>
 
-          <Specialization specializationTitle="Specializations Offered"/>
+          <Specialization specializationTitle="Specializations Offered" />
 
           <section ref={curriculumRef} id="curriculum">
             <Curriculum
               title="Academic Curriculum"
-              imageSrc="/assets/images/bts/Bsc.webp"
+              images={[
+                "/assets/images/bts/Bsc.webp",
+                "/assets/images/bts/Bsc2.webp",
+                "/assets/images/bts/Bsc3.webp",
+              ]}
             >
               <p>
                 The B.Sc. in Filmmaking program follows a production and
@@ -171,7 +175,12 @@ const BscFilmmaking = () => {
           <section ref={futureRef} id="future">
             <Scope
               title="Future Scope"
-              imageSrc="/assets/images/bts/bts-actor1.webp"
+              images={[
+                "/assets/images/bts/Bsc-shooting.webp",
+                "/assets/images/bts/Bsc4.webp",
+                "/assets/images/bts/Bsc5.webp",
+                "/assets/images/bts/Bsc6.webp",
+              ]}
               ctaPath="/careers"
             >
               <p>

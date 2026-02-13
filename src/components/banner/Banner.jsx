@@ -5,18 +5,18 @@ import { useNavigate } from "react-router-dom";
 import "./banner.css";
 
 const images = [
-  "/assets/images/banner/bn.jpg",
-  "/assets/images/banner/bn9.jpg",
-  "/assets/images/banner/bn11.jpg",
-  "/assets/images/banner/bn2.jpg",
-  "/assets/images/banner/bn3.jpg",
-  "/assets/images/banner/bn4.jpg",
-  "/assets/images/banner/bn5.jpg",
-  "/assets/images/banner/bn6.jpg",
-  "/assets/images/banner/bn7.jpg",
-  "/assets/images/banner/bn1.jpg",
-  "/assets/images/banner/bn8.jpg",
-  "/assets/images/banner/bn10.jpg",
+  "/assets/images/banner/bn.webp",
+  "/assets/images/banner/bn9.webp",
+  "/assets/images/banner/bn11.webp",
+  "/assets/images/banner/bn2.webp",
+  "/assets/images/banner/bn3.webp",
+  "/assets/images/banner/bn4.webp",
+  "/assets/images/banner/bn5.webp",
+  "/assets/images/banner/bn6.webp",
+  "/assets/images/banner/bn7.webp",
+  "/assets/images/banner/bn1.webp",
+  "/assets/images/banner/bn8.webp",
+  "/assets/images/banner/bn10.webp",
 ];
 
 // const Banner = () => {

@@ -37,7 +37,7 @@ const History = () => {
         </div>
 
         <div className="history-image">
-          <img src="/assets/images/bts/convocation.webp" alt="History" />
+          <img src="/assets/images/bts/convocation1.webp" alt="History" />
         </div>
       </div>
 

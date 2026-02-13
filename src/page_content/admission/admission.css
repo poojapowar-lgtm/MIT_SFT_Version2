@@ -69,6 +69,8 @@
   z-index: 1;
   height: auto;
   text-align: left;
+  border: none;
+  box-shadow: 0 4px 15px rgb(129, 128, 128);
 }
 
 .stage-cards.left .stage-card {

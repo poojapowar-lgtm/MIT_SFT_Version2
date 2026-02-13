@@ -8,7 +8,7 @@ const Academics = () => {
   const location = useLocation();
 
   const menu = [
-    // { name: "School Leadership Message", path: "leadership-message" },
+    { name: "School Leadership Message", path: "leadership-message" },
     { name: "Faculty", path: "faculty" },
     { name: "Academic Structure", path: "academic-structure" },
     { name: "Learning Resources", path: "learning-resourses" },
@@ -19,7 +19,7 @@ const Academics = () => {
 
   /* Only title changes based on route */
   const bannerTitleMap = {
-    // "leadership-message": "School Leadership Message",
+    "leadership-message": "School Leadership Message",
     "faculty": "Faculty",
     "academic-structure": "Academic Structure",
     "learning-resourses": "Learning Resources",
@@ -41,7 +41,7 @@ const Academics = () => {
   const title = getBannerTitle();
 
   /* ONE static background image */
-  const bgImage = "/assets/images/inner-banner/DharamGulati.webp";
+  const bgImage = "/assets/images/inner-banner/flim-banner.webp";
   const subtitle = "Sailing Towards Future";
 
   return (

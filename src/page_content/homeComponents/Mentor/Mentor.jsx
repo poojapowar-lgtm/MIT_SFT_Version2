@@ -95,7 +95,7 @@ const Mentor = () => {
         <div className="mentor-left">
           <img
             // src="/assets/images/home/mentor/jabbar_patel.webp"
-            src="/assets/images/inner-banner/Dr.jabbar.webp"
+            src="/assets/images/home/jabbar_patel.webp"
             alt="Mentor"
             className="mentor-img"
           />

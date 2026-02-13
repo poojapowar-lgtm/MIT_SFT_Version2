@@ -64,7 +64,7 @@ html {
 
 .innerpage-hg {
   color: goldenrod;
-  margin: 0;
+  margin: 10px 0;
   font-weight: 600;
 }
 
@@ -98,6 +98,7 @@ p {
 .span-text {
   color: goldenrod;
   margin: 10px;
+  font-weight: 600;
 }
 
 /* List */
@@ -107,16 +108,16 @@ p {
   padding-left: clamp(15px, 3vw, 25px);
   font-size: clamp(11px, 1.2vw, 16px);
   font-weight: 400;
-  line-height: 25px;
+  line-height: clamp(15px, 1.2vw, 25px);
   text-align: start;
 }
 
 .page-list li {
   color: black;
-  margin-top: 10px;
+  margin-top: clamp(5px, 1vw, 10px);
   font-size: clamp(11px, 1.2vw, 16px);
   font-weight: 400;
-  line-height: 25px;
+  line-height: clamp(15px, 1.2vw, 25px);
 }
 
 /* Button */

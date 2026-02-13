@@ -37,7 +37,6 @@
 
 // export default Sidebar;
 
-
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { CgMenuGridR } from "react-icons/cg";
@@ -73,9 +72,7 @@ const Sidebar = ({ menuItems, onItemClick }) => {
 
         <ul>
           {menuItems.map((item) => {
-          const isActive =
-  item.path && location.pathname === item.path;
-
+            const isActive = item.path && location.pathname === item.path;
 
             return (
               <li
@@ -84,13 +81,14 @@ const Sidebar = ({ menuItems, onItemClick }) => {
                 onClick={() => handleItemClick(item)}
               >
                 {item.path ? (
-                <NavLink
-  to={item.path}
-  className={({ isActive }) => (isActive ? "active-link" : "")}
->
-  {item.name}
-</NavLink>
-
+                  <NavLink
+                    to={item.path}
+                    className={({ isActive }) =>
+                      isActive ? "active-link" : ""
+                    }
+                  >
+                    {item.name}
+                  </NavLink>
                 ) : (
                   <span className="sidebar-link">{item.name}</span>
                 )}
@@ -104,4 +102,3 @@ const Sidebar = ({ menuItems, onItemClick }) => {
 };
 
 export default Sidebar;
-

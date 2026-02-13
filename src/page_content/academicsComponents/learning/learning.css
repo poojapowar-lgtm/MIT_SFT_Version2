@@ -1,11 +1,6 @@
-/* .card-hg {
-  border-radius: 18px 18px 0 0;
-  background: #520c17;
-  color: goldenrod;
-  padding: 12px 15px;
-  margin: 0;
-} */
-
+.vs-bottom {
+  margin-top: clamp(10px, 2vw, 50px);
+}
 /* underline */
 .card-hg::after {
   content: "";
@@ -16,55 +11,31 @@
   margin: 10px auto;
 }
 
+.vs-title {
+  color: #003153;
+    font-size: clamp(12px, 1.2vw, 18px);
+  font-weight: 600;
+}
 .ld-card {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  background-color: #520c17;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden; /* important for circle */
-  padding: 0;
-  transition: all 0.4s ease;
   border: none;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  border-radius: 16px;
+  box-shadow:
+    8px 8px 15px rgba(0, 0, 0, 0.15),
+    -8px -8px 15px rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
-/* Top Half */
-.ld-card .innerpage-hg {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 10px 0px 10px;
-  text-align: center;
-}
-
-/* Bottom Half */
-.card-link-btn {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: white;
-  color: #003153;
-  text-decoration: none;
-  transition: 0.3s ease;
-}
-
-/* 🔁 Hover Swap Effect */
-.ld-card:hover .innerpage-hg {
-  background-color: white;
-  color: #003153;
-}
-
-.ld-card:hover .card-link-btn {
-  background-color: #520c17;
-  color: lightblue;
-  text-decoration: underline;
-}
-
-/* Optional hover scale */
 .ld-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 15px 35px rgba(82, 12, 23, 0.4);
+  transform: translateY(-5px);
+  box-shadow:
+    12px 12px 20px rgba(0, 0, 0, 0.2),
+    -12px -12px 20px rgba(255, 255, 255, 0.9);
+}
+
+.card-link-btn {
+  text-decoration: none;
+  font-size: clamp(11px, 1.2vw, 16px);
+  color: blue;
 }

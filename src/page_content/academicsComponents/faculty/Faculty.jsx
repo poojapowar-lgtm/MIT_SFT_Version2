@@ -6,42 +6,49 @@ const facultyData = [
     id: 1,
     name: "Prof. Manish Joshi",
     designation: "Dy. Director",
+    department:"",
     photo: "/assets/images/faculty/Prof. Manish Joshi .webp",
   },
   {
     id: 2,
     name: "Prof. Gyanesh Kelkar",
-    designation: "Associate Professor, Sound Recording &amp; Designing.",
+    designation: "Associate Professor",
+     department:" Sound Recording & Designing.",
     photo: "/assets/images/faculty/Prof. Gyanesh Kelkar Suit image New.webp",
   },
   {
     id: 3,
     name: "Prof. Krishnendu Sarkar",
-    designation: "Associate Professor, Editing.",
+    designation: "Associate Professor",
+     department:"Editing",
     photo: "/assets/images/faculty/Prof. Krishnendu Sarkar Suit Image New.webp",
   },
   {
     id: 4,
     name: "Prof. Santosh Swarnakar",
-    designation: "Associate Professor, Cinematography.",
+    designation: "Associate Professor",
+     department:"Cinematography",
     photo: "/assets/images/faculty/Prof. Santosh Swarnakar Image New.webp",
   },
   {
     id: 6,
     name: "Prof. Amarpal Fauzdar",
-    designation: "Assistant Professor, Screenplay Writing.",
+    designation: "Assistant Professor",
+     department:"Screenplay Writing",
     photo: "/assets/images/faculty/Prof. Amarpal Fauzdar Final New.webp",
   },
   {
     id: 7,
     name: "Prof. Prasad Thorat",
-    designation: "Assistant Professor, VFX &amp; Motion Graphics.",
+    designation: "Assistant Professor",
+     department:" VFX & Motion Graphics",
     photo: "/assets/images/faculty/Prof. Prasad Thorat Suit Image New.webp",
   },
   {
     id: 8,
     name: "Prof. Sajeeb Majumder",
-    designation: "Asst. Prof. Art Direction & Production Design",
+    designation: "Assistant Professor ",
+     department:"Art Direction & Production Design",
     photo: "/assets/images/faculty/Prof. Sajeeb Majumder.webp",
   },
 ];
@@ -78,7 +85,7 @@ const Faculty = () => {
           {/* Right Content */}
           <div className="leadership-profile">
             <img
-              src="/assets/images/inner-banner/Dr-Mukesh-Sharma.webp"
+              src="/assets/images/faculty/Dr-Mukesh-Sharma.webp"
               alt="Leader"
               className="leader-image"
               style={{ width: "60%" }}
@@ -118,6 +125,7 @@ const Faculty = () => {
 
               <h5 className="common-title">{faculty.name}</h5>
               <p className="common-card-desc" style={{margin:"0px", color:"#003153"}}>{faculty.designation}</p>
+                    <p className="common-card-desc" style={{margin:"0px"}}>{faculty.department}</p>
             </div>
           ))}
         </div>

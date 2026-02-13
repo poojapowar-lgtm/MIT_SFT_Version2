@@ -3,8 +3,8 @@ import "./achievements.css";
 
 const Achievements = () => {
   const images = [
-    "/assets/images/home/national_award(1).webp",
-    "/assets/images/home/national_award.webp",
+    "/assets/images/home/nt.webp",
+    "/assets/images/home/nt2.webp",
   ];
 
   const imagesTwo = [

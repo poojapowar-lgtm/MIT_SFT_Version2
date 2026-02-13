@@ -3,10 +3,7 @@ import "./national_awards.css";
 import DividerWithTitle from "../../../components/reuseable_components/DividerWithTitle/DividerWithTitle";
 import { CgPlayButton } from "react-icons/cg";
 
-const images = [
-  "/assets/images/home/national_award.webp",
-  "/assets/images/home/national_award(1).webp",
-];
+const images = ["/assets/images/home/nt.webp", "/assets/images/home/nt2.webp"];
 
 const NationalAwards = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -21,14 +18,13 @@ const NationalAwards = () => {
 
   return (
     <div>
-      <DividerWithTitle title="68th National Film Award Winner" />
       <section className="national-awards">
+        <h1 className="nt-title">68th National Film Award Winner</h1>
         <div className="awards-card gradient-border">
           <div className="awards-content">
             {/* Left list */}
             <div className="awards-left">
               <ul className="page-list awards-list">
-                {/* <h4 className="subtitle">National Awards</h4> */}
                 <li>Film: Pariah (Marathi and Hindi)</li>
                 <li>Section: Non-Feature Film</li>
                 <li>

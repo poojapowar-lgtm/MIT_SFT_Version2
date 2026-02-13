@@ -6,7 +6,7 @@ const recognitionsData = [
   {
     id: 1,
     name: "Mr. Vishesh Iyer",
-    image: "/assets/images/home/national_award.webp",
+    image: "/assets/images/home/nt2.webp",
     points: [
 
       "B.Sc. in Filmmaking - Batch 2016-17, Specialization – Direction & Screenplay Writing",
@@ -16,7 +16,7 @@ const recognitionsData = [
   {
     id: 2,
     name: "Mr. Shaksham Vyas",
-    image: "/assets/images/recognitions/rec2.webp",
+    image: "/assets/images/bts/Shaksham_Vyas.webp",
     points: [
       "B.Sc. in Filmmaking - Batch 2020-21, Specialization – Direction & Screenplay Writing",
       "ALL INDIA CHILDREN EDUCATIONAL eCONTENT COMPETITION (AICEeCC) 2023-24, Organised by NCERT – Best Film.",
@@ -25,7 +25,7 @@ const recognitionsData = [
   {
     id: 3,
     name: "Mr. Rishabh Nahar",
-    image: "/assets/images/recognitions/rec3.webp",
+    image: "/assets/images/bts/Rishabh-Nahar.webp",
     points: [
    "M.Sc in Filmmaking - Batch 2021-22, Specialization - Cinematography",
    "ALL INDIA CHILDREN EDUCATION eCONTENT COMPETITION (AICEeCC) 2023-24, Organised by NCERT- Best Editor"

@@ -124,7 +124,11 @@ const BaScreenacting = () => {
           <section ref={curriculumRef} id="curriculum">
             <Curriculum
               title="Academic Curriculum"
-              imageSrc="/assets/images/bts/BA-shoot.webp"
+              images={[
+                "/assets/images/bts/BA2.webp",
+                "/assets/images/bts/BA-Shoot.webp",
+                "/assets/images/bts/shooting.webp",
+              ]}
             >
               <p>
                 The B.A. in Screen Acting program offers a structured and
@@ -163,7 +167,11 @@ const BaScreenacting = () => {
           <section ref={futureRef} id="future">
             <Scope
               title="Future Scope"
-              imageSrc="/assets/images/home/programs3.webp"
+              images={[
+                "/assets/images/bts/BA.webp",
+                "/assets/images/bts/BA3.webp",
+                "/assets/images/bts/actor2.webp",
+              ]}
               ctaPath="/careers"
             >
               <p>

@@ -5,6 +5,12 @@
   /* background-image: url("/public/assets/images/background/nt_frame.svg"); */
 }
 
+.nt-title{
+  color: goldenrod;
+  text-align: center;
+    font-size: clamp(20px, 3vw, 40px);
+    margin: 0;
+}
 /* Card */
 .awards-card {
   background-image: url("/public/assets/images/background/nt_frame.svg");
@@ -21,12 +27,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 0 clamp(50px, 1.5vw, 100px);
+  padding: clamp(10px, 5vw, 50px) clamp(50px, 10vw, 100px);
 }
 
 .awards-left {
   padding-left: clamp(15px, 1.5vw, 30px);
-  height: clamp(200px, 20vw, 350px);
+  /* height: clamp(120px, 20vw, 300px); */
 }
 
 /* List */
@@ -81,12 +87,13 @@
 .image-slider {
   padding: clamp(5px, 1vw, 40px) 0;
   position: relative;
-  height: clamp(200px, 20vw, 350px);
+  height: clamp(200px, 20vw, 300px);
   overflow: hidden;
 }
 
 .image-slider img {
-  height: clamp(200px, 20vw, 350px);
+  height: clamp(200px, 20vw, 320px);
+  width: 90%;
   position: absolute;
   inset: 0;
   object-fit: cover;

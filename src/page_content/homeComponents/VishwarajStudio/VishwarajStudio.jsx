@@ -3,9 +3,11 @@ import "./vishwaraj-studio.css";
 import DividerWithTitle from "../../../components/reuseable_components/DividerWithTitle/DividerWithTitle";
 
 const images = [
-  "/assets/images/background/vishwaraj2.JPG",
-  "/assets/images/background/vishwaraj1.JPG",
-  "/assets/images/background/vishwaraj4.JPG",
+  "/assets/images/home/vj1.webp",
+  "/assets/images/home/vj2.webp",
+  "/assets/images/home/vj3.webp",
+  "/assets/images/home/vj4.webp",
+  "/assets/images/home/vj5.webp",
 ];
 
 const VishwarajStudio = () => {
@@ -50,12 +52,9 @@ const VishwarajStudio = () => {
             <button className="button" id="studio-btn">
               More Facilites
             </button>
-              
           </div>
-
-       
         </div>
-         <p className="size"> Size:(110 x 90 x 80 sq. ft.)</p>
+        <p className="size"> Size:(110 x 90 x 80 sq. ft.)</p>
       </section>
     </div>
   );

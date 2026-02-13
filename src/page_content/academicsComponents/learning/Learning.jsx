@@ -90,13 +90,13 @@ const Learning = () => {
       <h2 className="innerpage-title">Industry-Focused Education</h2>
 
       <section className="vision-section">
-         <div className="vision-cards bottom">
+         <div className="vision-cards vs-top">
           {cardData2.map((card, index) => (
             <div
               className="common-card ld-card"
               key={index}
             >
-              <p className="innerpage-hg">{card.title}</p>
+              <p className="vs-title">{card.title}</p>
 
               <a
                 href={card.link}
@@ -110,7 +110,7 @@ const Learning = () => {
           ))}
         </div>
         
-        <div className="vision-cards top">
+        <div className="vision-cards vs-bottom">
           {cardData.map((card, index) => (
             <div
               className="common-card"
