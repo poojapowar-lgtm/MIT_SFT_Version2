@@ -4,7 +4,6 @@ import React from "react";
 const Message = () => {
   return (
     <div>
-
       {/*    <h2 className="innerpage-title">Message from Mentor</h2><div>
         <div className="leadership-content">
           <div className="leadership-text">
@@ -112,30 +111,20 @@ const Message = () => {
         </p>
       </div>
 
-
-        <h2 className="innerpage-title">Message From Dean</h2>
+      <h2 className="innerpage-title">Message From Deputy Director </h2>
       <div>
         <div className="leadership-content">
           {/* Left Content */}
           <div className="leadership-text">
             <p> Dear Parents and Students,</p>
-            <p>
-              On behalf of all our faculty & staff, I welcome you all to the
-              School of Film & Theatre or as we fondly refer to it as SFT. As
-              dean of SFT, I am very proud of the rich tradition that we have
-              adopted to impart experiential learning of Film Education.
-              Endorsed under the aegis MIT ADT University, our program prepares
-              students to become film makers with the ethical depth and
-              intellectual intensity essential to meet the challenges of a time
-              of critical transition in society.
-            </p>
 
             <p>
-              Generating Ideas is not a problem. But the lack of know how as to
-              how to give them shape, is what prevents us from reaching our
-              goal. It’s one’s attachment to the baggage that we carry, that
-              prevents us from giving fruition to our ideas. Here’s where SFT
-              comes into picture. 
+              Welcome to SFT, where our mission is to transform filmmaking
+              through innovation. We are committed to cultivating your
+              creativity by seamlessly integrating timeless storytelling with
+              cutting-edge technology. Our goal is to empower you to craft films
+              that inspire, challenge, and authentically connect with audiences.
+              Together, we will redefine the future of cinema.
             </p>
           </div>
 
@@ -156,7 +145,6 @@ const Message = () => {
             </div>
           </div>
         </div>
-  
       </div>
     </div>
   );
