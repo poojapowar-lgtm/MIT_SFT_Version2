@@ -17,7 +17,7 @@
 }
 
 .leader-image {
-  width: 70%;
+  /* width: 70%; */
   height: auto;
   border-radius: clamp(8px, 2vw, 12px);
   margin-bottom: clamp(8px, 2vw, 12px);

@@ -110,7 +110,7 @@ const Message = () => {
           through a visit to our campus.
         </p>
       </div>
-
+<hr/>
       <h2 className="innerpage-title">Message From Deputy Director </h2>
       <div>
         <div className="leadership-content">
@@ -119,12 +119,27 @@ const Message = () => {
             <p> Dear Parents and Students,</p>
 
             <p>
-              Welcome to SFT, where our mission is to transform filmmaking
-              through innovation. We are committed to cultivating your
-              creativity by seamlessly integrating timeless storytelling with
-              cutting-edge technology. Our goal is to empower you to craft films
-              that inspire, challenge, and authentically connect with audiences.
-              Together, we will redefine the future of cinema.
+              Welcome to the School of Film & Television (SFT), a vibrant and
+              inspiring hub where boundless imagination converges with
+              innovative techniques, creating a fertile ground for stories to
+              unfold and find their authentic cinematic voice. At SFT, we
+              believe that filmmaking is not just an art form but a powerful
+              medium for cultural expression, social dialogue, and personal
+              storytelling. Our mission is to revolutionize the way stories are
+              told by blending the timeless traditions of narrative craft with
+              the latest advancements in technology, ensuring that our students
+              are equipped to thrive in an ever-changing cinematic landscape.
+            </p>
+            <p>
+              We are passionately dedicated to fostering an environment that
+              nurtures creativity and encourages experimentation. Our curriculum
+              is thoughtfully designed to build a solid artistic foundation,
+              enabling students to explore cinema from multiple angles—whether
+              as a visual art, a storytelling craft, or a social commentary. We
+              emphasize the importance of critical thinking, ethical
+              storytelling, and cultural awareness, inspiring students to
+              develop their unique voice while respecting the rich history of
+              film and theatre.
             </p>
           </div>
 
@@ -145,6 +160,28 @@ const Message = () => {
             </div>
           </div>
         </div>
+        <p>
+          At SFT, our overarching goal is to empower aspiring filmmakers to
+          produce work that not only entertains but also challenges societal
+          norms, sparks conversations, and resonates deeply across diverse
+          audiences worldwide. Through a dynamic and collaborative learning
+          environment, students gain hands-on experience in all aspects of
+          filmmaking—from script writing and directing to editing and
+          distribution. Our faculty, comprised of industry professionals and
+          seasoned artists, provides personalized mentorship, guiding students
+          through real-world projects and helping them navigate the complexities
+          of the digital age.
+        </p>
+        <p>
+          We believe that the future of cinema lies in innovation, inclusivity,
+          and storytelling that is both authentic and impactful. By cultivating
+          ethical filmmakers who are committed to social responsibility and
+          artistic excellence, we aim to shape a new generation of storytellers
+          capable of making meaningful contributions to global cinema. Together
+          at SFT, we are redefining the art of filmmaking—creating visionaries
+          who are prepared to lead, inspire, and transform the world through the
+          power of their stories.
+        </p>
       </div>
     </div>
   );

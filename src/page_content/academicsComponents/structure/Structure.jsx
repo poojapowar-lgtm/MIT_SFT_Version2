@@ -74,7 +74,7 @@ const Structure = () => {
               <li>Evaluation Pattern – Continuous Assessment + Jury.</li>
             </ul>
             <img
-              src="/assets/images/bts/bts6.webp"
+              src="/assets/images/bts/msc4.webp"
               alt="courses"
               className="course-img"
             />

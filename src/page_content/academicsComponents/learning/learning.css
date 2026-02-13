@@ -12,8 +12,8 @@
 }
 
 .vs-title {
-  color: #003153;
-    font-size: clamp(12px, 1.2vw, 18px);
+  color: #b22222;
+    font-size: clamp(14px, 1.2vw, 20px);
   font-weight: 600;
 }
 .ld-card {
@@ -23,7 +23,7 @@
   box-shadow:
     8px 8px 15px rgba(0, 0, 0, 0.15),
     -8px -8px 15px rgba(255, 255, 255, 0.8);
-  padding: 20px;
+  padding:  clamp(11px, 1.2vw, 16px);
   transition: all 0.3s ease-in-out;
 }
 
