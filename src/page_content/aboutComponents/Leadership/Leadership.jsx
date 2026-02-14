@@ -48,7 +48,7 @@ const Leadership = () => {
           </div>
         </div>
       </div>
-      <p>
+      {/* <p>
         Its mission is realized through a dynamic academic ecosystem that blends
         artistic expression, technical mastery, and industry exposure empowering
         students to excel both behind and in front of the camera. With
@@ -58,7 +58,7 @@ const Leadership = () => {
         The School of Film & Television will continue to develop skilled,
         responsible, and visionary media professionals who uphold the values of
         excellence, integrity, and innovation that & define our university.
-      </p>
+      </p> */}
     </div>
   );
 };
