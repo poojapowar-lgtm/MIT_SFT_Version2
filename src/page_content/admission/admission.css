@@ -89,12 +89,15 @@
   left: 50%;
   width: 20px;
   height: 20px;
-  background-color: whitesmoke;
+  background-color: goldenrod;
   border-radius: 50%;
   transform: translateX(-50%);
   z-index: 1;
 }
 
+.stage-text{
+  margin: 0;
+}
 /* faq */
 .faq-wrapper {
     max-width: clamp(350px, 80vw, 1000px);
