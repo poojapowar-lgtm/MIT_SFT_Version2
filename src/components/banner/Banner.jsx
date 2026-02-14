@@ -84,23 +84,21 @@ const Banner = () => {
   const [index, setIndex] = useState(0);
   const [prevIndex, setPrevIndex] = useState(0);
 
-    // preload
+  // preload
   useEffect(() => {
-  images.forEach((src) => {
-    const img = new Image();
-    img.src = src;
-  });
-}, []);
+    images.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
 
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setIndex((prev) => (prev + 1) % images.length);
+  //   }, 3000);
 
-
-// useEffect(() => {
-//   const interval = setInterval(() => {
-//     setIndex((prev) => (prev + 1) % images.length);
-//   }, 3000);
-
-//   return () => clearInterval(interval);
-// }, [images.length]);
+  //   return () => clearInterval(interval);
+  // }, [images.length]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -119,12 +117,12 @@ const Banner = () => {
             backgroundImage: `url(${images[index]})`,
           }}
         ></div> */}
-     <div
-          className="slide prev"
+        <div
+          className="slide slide-prev"
           style={{ backgroundImage: `url(${images[prevIndex]})` }}
         />
         <div
-          className="slide current"
+          className="slide slide-current"
           style={{ backgroundImage: `url(${images[index]})` }}
         />
       </section>
