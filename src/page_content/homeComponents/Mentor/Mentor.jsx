@@ -88,7 +88,6 @@ const Mentor = () => {
   return (
     <section className="mentor-section">
       <DividerWithTitle title="Our Mentor" />
-      
 
       <div className="mentor-content">
         {/* left side */}
@@ -99,11 +98,8 @@ const Mentor = () => {
             alt="Mentor"
             className="mentor-img"
           />
-               <h4 className="subtitle">
-            Padma Shree. Dr. Jabbar Patel
-          </h4>
+          <h4 className="subtitle">Padma Shree. Dr. Jabbar Patel</h4>
           <div className="mentor-bottom">
-            
             <img
               src="/assets/images/home/award_logo.webp"
               alt="Icon"
@@ -157,8 +153,6 @@ const Mentor = () => {
 
         {/* right side */}
         <div className="mentor-right">
-     
-
           <p className="mentor-message">
             “Cinema is not just about visuals, it’s about emotions, discipline &
             honesty. Always tell stories that matter.”

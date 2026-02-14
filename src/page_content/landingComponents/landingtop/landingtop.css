@@ -1,5 +1,6 @@
 .landing-top {
   /* min-height: 100vh; */
+  background-color: black;
   background-image: url("/public/assets/images/banner/Ankit Bhat.webp");
   background-repeat: no-repeat;
   background-position: 80% 25%;
@@ -70,18 +71,18 @@
   letter-spacing: clamp(0.5px, 0.3vw, 1px);
   font-weight: 400;
   font-size: clamp(26px, 6vw, 55px);
-  color: gold;
+  color: white;
   line-height: 1.1;
 }
 
 /* Social icons */
 .ld-social {
-    display: flex;
-    position: absolute;
-    top: clamp(10px, 1vw, 20px);
-    right: clamp(10px, 1vw, 16px);
-    gap: clamp(5px, 1vw, 15px);
-    margin-bottom: 0;
+  display: flex;
+  position: absolute;
+  top: clamp(10px, 1vw, 20px);
+  right: clamp(10px, 1vw, 16px);
+  gap: clamp(5px, 1vw, 15px);
+  margin-bottom: 0;
 }
 
 .ld-social-icons {
@@ -165,6 +166,10 @@
   gap: clamp(4px, 2vw, 6px);
 }
 
+.lt-text {
+  margin: 10px;
+  color: white;
+}
 /* Bottom Section */
 .landing-bottom {
   display: flex;
@@ -183,6 +188,7 @@
 }
 
 .bt-block-title {
+  color: white;
   font-size: clamp(25px, 6vw, 50px);
   margin-bottom: clamp(20px, 1vw, 60px);
 }

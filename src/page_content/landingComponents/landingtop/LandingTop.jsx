@@ -44,7 +44,7 @@ const LandingTop = () => {
       <div className="landing-main">
         <div className="landing-left">
           {" "}
-          <h2 className="subtitle">Bring Imagination To Life</h2>
+          <h2 className="subtitle" style={{color:"white"}}>Bring Imagination To Life</h2>
           {/* Left Card */}
           <div className="info-card">
             <h3 className="form-title">Apply Now / Enquiry Now</h3>
@@ -95,9 +95,9 @@ const LandingTop = () => {
 
         {/* Vertical Text Right Bottom */}
         <div className="landingtop-text">
-          <h3 className="banner-title">Our Alumni</h3>
-          <p className="banner-title">Mr.Ankit Bhat (Associate Dop)</p>
-          <p className="banner-text">On the set of feature film</p>
+          <h1 className="lt-text">Our Alumni</h1>
+          <h1 className="lt-text">Mr.Ankit Bhat (Associate Dop)</h1>
+          <h1 className="lt-text">On the set of feature film</h1>
         </div>
       </div>
 

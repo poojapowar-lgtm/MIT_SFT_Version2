@@ -1,4 +1,5 @@
 .carousel-background {
+background-color: black;
   position: relative;
   width: 100%;
   padding: clamp(30px, 2vw, 40px) 0;
@@ -19,9 +20,9 @@
 
 /* Track Images */
 .track-images {
+  border: 1px solid white ;
   width: clamp(160px, 35vw, 300px) !important;
   object-fit: cover;
   border-radius: clamp(8px, 2vw, 15px);
   flex-shrink: 0;
-  border: none !important;
 }
