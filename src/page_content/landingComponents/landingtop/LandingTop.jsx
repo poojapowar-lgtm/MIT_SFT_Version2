@@ -24,7 +24,7 @@ const LandingTop = () => {
             Film and Television
           </h1>
           <img
-            src="/assets/icons/mit_logo.webp"
+            src="/assets/icons/mit_logo_black.webp"
             alt="Logo 1"
             className="ld-logo1"
           />

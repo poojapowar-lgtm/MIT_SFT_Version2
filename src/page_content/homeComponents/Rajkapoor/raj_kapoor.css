@@ -30,7 +30,7 @@
 
 .inner-image {
   position: absolute;
-  top: clamp(8px, 2vw, 20px);
+  bottom: clamp(8px, 2vw, 20px);
   right: clamp(8px, 2vw, 20px);
   width: clamp(80px, 20vw, 250px);
   height: auto;

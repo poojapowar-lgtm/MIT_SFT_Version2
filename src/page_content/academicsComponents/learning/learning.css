@@ -11,31 +11,33 @@
   margin: 10px auto;
 }
 
-.vs-title {
-  color: #b22222;
-    font-size: clamp(14px, 1.2vw, 20px);
-  font-weight: 600;
+.vs-top{
+  background-color: #520c17;
+  padding: 10px;
 }
+.vs-title {
+  font-size: clamp(14px, 1.2vw, 22px);
+  font-weight: 600;
+  margin: 10px;
+  color: goldenrod;
+  text-transform: uppercase;
+
+}
+
 .ld-card {
-  border: none;
-  background: linear-gradient(145deg, #ffffff, #e6e6e6);
-  border-radius: 16px;
-  box-shadow:
-    8px 8px 15px rgba(0, 0, 0, 0.15),
-    -8px -8px 15px rgba(255, 255, 255, 0.8);
-  padding:  clamp(11px, 1.2vw, 16px);
+  background-color: #520c17;
+  border: 1px solid whitesmoke;
+  border-radius: 0px;
+  padding: clamp(11px, 1.2vw, 16px);
   transition: all 0.3s ease-in-out;
 }
 
 .ld-card:hover {
   transform: translateY(-5px);
-  box-shadow:
-    12px 12px 20px rgba(0, 0, 0, 0.2),
-    -12px -12px 20px rgba(255, 255, 255, 0.9);
 }
 
 .card-link-btn {
   text-decoration: none;
   font-size: clamp(11px, 1.2vw, 16px);
-  color: blue;
+  color: white;
 }

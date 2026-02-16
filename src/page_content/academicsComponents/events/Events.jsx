@@ -55,7 +55,7 @@ const eventsData = [
   {
     id: 5,
     title: "VFX & Motion Graphics",
-    image: "/assets/images/events/vfx4.webp",
+    image: "/assets/images/events/green-croma3.webp",
     points: [
       "Workshop on Unreal Engine for Virtual Production &amp; CGI Environment",
       "Workshop on Visual Effects and Virtual Production in Filmmaking",

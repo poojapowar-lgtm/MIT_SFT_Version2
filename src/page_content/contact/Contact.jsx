@@ -11,9 +11,9 @@ const Contact = () => {
   return (
     <>
       <InnerBanner bgImage={bgImage} title={title} subtitle={subtitle} />
-   
+
       <section className="contact-us">
-           <DividerWithTitle title="Cotact Us" />
+        <DividerWithTitle title="Cotact Us" />
         <div className="contact-cards">
           {/* Address */}
           <div className="contact-card">
@@ -23,9 +23,9 @@ const Contact = () => {
             <div className="content">
               <h4 className="innerpage-subtitle">Address</h4>
               <p>
-                MIT ADT University Campus, Rajbaugh, Loni-Kalbhor,
-                <br />
-                Pune - 412201, Maharashtra India.
+                School of Film & Television, MIT ADT University Campus,
+                Rajbaugh, Pune-Solapur Highway, Loni - Kalbhor, Pune,
+                Maharashtra. 412201
               </p>
             </div>
           </div>
@@ -33,7 +33,10 @@ const Contact = () => {
           {/* Enquiry */}
           <div className="contact-card">
             <div className="icon">
-              <img src="/assets/images/icons/contact/phone.webp" alt="Enquiry" />
+              <img
+                src="/assets/images/icons/contact/phone.webp"
+                alt="Enquiry"
+              />
             </div>
             <div className="content">
               <h4 className="innerpage-subtitle">Enquiry</h4>
@@ -67,7 +70,10 @@ const Contact = () => {
           {/* Working Hours */}
           <div className="contact-card">
             <div className="icon">
-              <img src="/assets/images/icons/contact/clock.webp" alt="Working Hours" />
+              <img
+                src="/assets/images/icons/contact/clock.webp"
+                alt="Working Hours"
+              />
             </div>
             <div className="content">
               <h4 className="innerpage-subtitle">Working Hours</h4>

@@ -45,7 +45,7 @@ background: transparent;
   margin: 0 auto;
   max-width: clamp(320px, 90vw, 1000px);
   text-align: center;
-  color: goldenrod;
+  color: #0E0E55;
   font-weight: 600;
 }
 

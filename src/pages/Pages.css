@@ -63,7 +63,7 @@ html {
 }
 
 .innerpage-hg {
-  color: goldenrod;
+  color: #0E0E55;
   margin: 10px 0;
   font-weight: 600;
 }
@@ -83,7 +83,7 @@ p {
   font-size: clamp(14px, 2.5vw, 20px);
   font-weight: 600;
   margin: 10px;
-  color: #003153;
+  color: #0E0E55;
 }
 
 .common-title {
@@ -92,11 +92,11 @@ p {
   margin: clamp(1px, 0.2vw, 10px);
   font-size: clamp(14px, 2.5vw, 20px);
   font-weight: 500;
-  color: goldenrod;
+  color: #0E0E55;
 }
 
 .span-text {
-  color: goldenrod;
+  color: #b22222;
   margin: 10px;
   font-weight: 600;
 }

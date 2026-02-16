@@ -46,6 +46,11 @@ const Navbar = ({ open, onClose }) => {
 
             <ul className="submenu">
               <li>
+                <NavLink to="/courses/ba-screen-acting" onClick={onClose}>
+                  B.A Screen Acting
+                </NavLink>
+              </li>
+              <li>
                 <NavLink to="/courses/bsc-filmmaking" onClick={onClose}>
                   B.Sc in Filmmaking
                 </NavLink>
@@ -53,11 +58,6 @@ const Navbar = ({ open, onClose }) => {
               <li>
                 <NavLink to="/courses/msc-filmmaking" onClick={onClose}>
                   M.Sc in Filmmaking
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/courses/ba-screen-acting" onClick={onClose}>
-                  B.A Screen Acting
                 </NavLink>
               </li>
             </ul>

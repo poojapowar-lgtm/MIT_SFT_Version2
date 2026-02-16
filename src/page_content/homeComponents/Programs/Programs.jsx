@@ -5,22 +5,22 @@ import DividerWithTitle from "../../../components/reuseable_components/DividerWi
 
 const programData = [
   {
+    img: "/assets/images/home/programs3.webp",
+    subtitle: "B.A. in Screen Acting",
+    text: "Specialized undergraduate program designed exclusively for aspiring actors who wish to build professional careers performing in front of the camera.",
+    link: "/courses/ba-screen-acting",
+  },
+  {
     img: "/assets/images/home/programs1.webp",
-    subtitle: "B.SC in Film Making",
+    subtitle: "B.Sc. in Filmmaking",
     text: "Undergraduate program designed to develop skilled filmmakers and specialist technicians with a strong foundation in the art and craft of cinema.",
     link: "/courses/bsc-filmmaking",
   },
   {
     img: "/assets/images/home/programs2.webp",
-    subtitle: "M. Sc. in Film Making",
+    subtitle: "M. Sc. in FilmMaking",
     text: "Specialization focused postgraduate program designed for graduates who wish to achieve professional mastery in a specific filmmaking discipline.",
     link: "/courses/msc-filmmaking",
-  },
-  {
-    img: "/assets/images/home/programs3.webp",
-    subtitle: "B.A. in Screen Acting",
-    text: "Specialized undergraduate program designed exclusively for aspiring actors who wish to build professional careers performing in front of the camera.",
-    link: "/courses/ba-screen-acting",
   },
 ];
 
@@ -38,7 +38,10 @@ const Programs = () => {
               <button
                 className="button"
                 id="pg-btn"
-                onClick={() => navigate(program.link)}
+                onClick={() => {
+                  navigate(program.link);
+                  window.scrollTo(0, 0);
+                }}
               >
                 Read More
               </button>

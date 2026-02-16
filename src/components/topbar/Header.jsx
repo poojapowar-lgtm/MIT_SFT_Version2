@@ -17,7 +17,7 @@ const Header = ({ onMenuOpen }) => {
           />
 
           <div className="topbar-content">
-            <h1 className="main-title">School Of  <br/>Film and Television</h1>
+            <h1 className="main-title">School Of  <br/>Film & Television</h1>
           </div>
         </div>
 

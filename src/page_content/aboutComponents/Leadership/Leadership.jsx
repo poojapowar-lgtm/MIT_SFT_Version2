@@ -40,7 +40,7 @@ const Leadership = () => {
           <div className="leader-info">
             <h4 className="ld-name">Hon’ble Prof. Dr. Mangesh T. Karad</h4>
             <p className="span-text">
-              (Pro-Chancellor and Executive President)
+              (Dean - SFT and Deputy Director - SFT)
             </p>
             <p className="span-text">
               with Shri Javed Akhtar Sahab , poet, lyricist and screenwriter
