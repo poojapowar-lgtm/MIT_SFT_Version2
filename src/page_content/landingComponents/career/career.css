@@ -1,4 +1,4 @@
-.carousel-background {
+/* .carousel-background {
 background-color: black;
   position: relative;
   width: 100%;
@@ -16,13 +16,13 @@ background-color: black;
   position: absolute;
   inset: 0;
   z-index: 1;
-}
+} */
 
 /* Track Images */
 .track-images {
-  border: 1px solid white ;
+  border: 3px solid #520c17 !important;
   width: clamp(160px, 35vw, 300px) !important;
   object-fit: cover;
-  border-radius: clamp(8px, 2vw, 15px);
+  /* border-radius: clamp(8px, 2vw, 15px); */
   flex-shrink: 0;
 }

@@ -89,7 +89,7 @@ p {
 .common-title {
   line-height: 25px;
   text-align: center;
-  margin: 10px;
+  margin: clamp(1px, 0.2vw, 10px);
   font-size: clamp(14px, 2.5vw, 20px);
   font-weight: 500;
   color: goldenrod;
