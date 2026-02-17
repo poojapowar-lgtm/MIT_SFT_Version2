@@ -46,7 +46,7 @@ const Learning = () => {
     },
     {
       title: "Different Genres Films Library",
-      description: `Our curated film library spans multiple genres—fiction, documentary, experimental, animation, short films, and feature films from India and across the world. This helps students understand narrative structures, visual styles, genre conventions, and evolving cinematic languages, encouraging creative exploration and informed filmmaking.`,
+      description: `Our curated film library spans multiple genres fiction, documentary, experimental, animation, short films, and feature films from India and across the world. This helps students understand narrative structures, visual styles, genre conventions, and evolving cinematic languages, encouraging creative exploration and informed filmmaking.`,
     },
     {
       title: "Online and e-Resources",

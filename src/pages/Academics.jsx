@@ -8,8 +8,8 @@ const Academics = () => {
   const location = useLocation();
 
   const menu = [
-    { name: "School Leadership Message", path: "leadership-message" },
-    { name: "Faculty", path: "faculty" },
+    { name: "School Leadership", path: "leadership-message" },
+    { name: "Faculty Team", path: "faculty" },
     { name: "Academic Structure", path: "academic-structure" },
     { name: "Learning Resources", path: "learning-resourses" },
     { name: "Event & Workshops", path: "event-workshops" },
@@ -19,8 +19,8 @@ const Academics = () => {
 
   /* Only title changes based on route */
   const bannerTitleMap = {
-    "leadership-message": "School Leadership Message",
-    "faculty": "Faculty",
+    "leadership-message": "School Leadership",
+    "faculty": "Faculty Team",
     "academic-structure": "Academic Structure",
     "learning-resourses": "Learning Resources",
     "event-workshops": "Event & Workshops",

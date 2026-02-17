@@ -65,14 +65,21 @@ const Footer = () => {
             <div className="contact-admission">
               <ul className="page-list">
                 <span className="footer-heading">Contact Us</span>
-                <li>+91-9021080157</li>
-                <li>+91-8669982310</li>
+                <li>
+                  <a href="tel:+919021080157">+91-9021080157</a>
+                </li>
+                <li>
+                  <a href="tel:+918669982310">+91-8669982310</a>
+                </li>
               </ul>
 
               <ul className="page-list">
-                <span className="footer-heading">For Admission</span>
-                <li>admissions.sft@mituniversity.edu.in</li>
-                {/* <li>shraddha.kohad@mituniversity.edu.in</li> */}
+                <span className="footer-heading">Email</span>
+                <li>
+                  <a href="mailto:admissions.sft@mituniversity.edu.in">
+                    admissions.sft@mituniversity.edu.in
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -100,12 +107,25 @@ const Footer = () => {
             />
           </div>
           <button
-            onClick={() => navigate("/apply-now")}
+            onClick={() =>
+              window.open(
+                "https://mituniversity.ac.in/bsc-msc-film-making-course-mit-pune/",
+                "_blank",
+              )
+            }
             className="button"
             id="footer-btn"
           >
             Join Now
           </button>
+
+          {/* <button
+            onClick={() => navigate("/apply-now")}
+            className="button"
+            id="footer-btn"
+          >
+            Join Now
+          </button> */}
         </div>
       </div>
       <span

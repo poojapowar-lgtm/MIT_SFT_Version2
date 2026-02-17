@@ -40,18 +40,18 @@ const Admission = () => {
 
   const faqData = [
     {
-      question: "What programs are offered at MITSFT?",
+      question: "What programs are offered at MIT-SFT?",
       answer:
-        "MITSFT offers B.Sc. in Filmmaking, M.Sc. in Filmmaking, and B.A. in Screen Acting, all focused exclusively on cinema and screen-based storytelling. ",
+        "MIT-SFT offers B.Sc. in Filmmaking, M.Sc. in Filmmaking, and B.A. in Screen Acting, all focused exclusively on cinema and screen-based storytelling. ",
     },
     {
       question:
-        " Is MITSFT a filmmaking school or a media/mass communication institute?",
+        " Is MIT-SFT a filmmaking school or a media/mass communication institute?",
       answer:
-        "MITSFT is a pure filmmaking and screen performance school. It does not teach mass communication, journalism, or broadcasting. ",
+        "MIT-SFT is a pure filmmaking and screen performance school. It does not teach mass communication, journalism, or broadcasting. ",
     },
     {
-      question: "What makes MITSFT different from other film schools? ",
+      question: "What makes MIT-SFT different from other film schools? ",
       answer:
         "Its production-based learning model, internationally benchmarked curriculum, Pune’s largest shooting studio, one-to-one equipment access, and strong industry engagement make it distinct. ",
     },
@@ -73,7 +73,7 @@ const Admission = () => {
     {
       question: "What kind of facilities are available? ",
       answer:
-        "Professional cameras, sound recording and design studios, Mac &amp; PC-based editing suites, VFX facilities, and one of Pune’s largest air-conditioned shooting floors. ",
+        "Professional cameras, sound recording and design studios, Mac & PC-based editing suites, VFX facilities, and one of Pune’s largest air-conditioned shooting floors. ",
     },
     {
       question: "Is there industry exposure during the course? ",
@@ -100,7 +100,7 @@ const Admission = () => {
     {
       question: "Where is the campus located? ",
       answer:
-        " MITSFT is located at Rajbaug, Loni Kalbhor, Pune, on a scenic 120-acre campus along the river Mutha.",
+        " MIT-SFT is located at Rajbaug, Loni Kalbhor, Pune, on a scenic 120-acre campus along the river Mutha.",
     },
   ];
 

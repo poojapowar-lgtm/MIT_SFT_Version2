@@ -112,9 +112,9 @@ const BscFilmmaking = () => {
                 </p>
                 <p>
                   The program offers structured exposure to all core filmmaking
-                  disciplines—direction and screenplay writing, cinematography,
+                  disciplines direction and screenplay writing, cinematography,
                   editing, sound recording and design, and VFX & motion
-                  graphics—before students choose their major and minor
+                  graphics before students choose their major and minor
                   specializations. This holistic approach ensures a deep
                   understanding of the complete filmmaking process, from concept
                   development to post-production.

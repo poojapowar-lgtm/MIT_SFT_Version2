@@ -4,7 +4,7 @@ const USP = () => {
   const cardData = [
     {
       title: "Internationally Aligned Cinematic Pedagogy",
-      description: `The curriculum at MITSFT is structured in line with globally
+      description: `The curriculum at MIT-SFT is structured in line with globally
       accepted practices followed by leading international film schools.
       Emphasis is placed on the complete cinematic workflow development,
       pre production, production, and post production ensuring students
@@ -17,7 +17,7 @@ const USP = () => {
     },
     {
       title: "Extensive Professional Infrastructure",
-      description: `MITSFT offers over thirty units of professional cameras, editing systems, and sound recording equipment, allowing students to work on a one-to-one basis. The School also houses a dedicated shooting studio for camera workshops and one of Pune’s largest fully air-conditioned shooting floors for large-scale productions.`,
+      description: `MIT-SFT offers over thirty units of professional cameras, editing systems, and sound recording equipment, allowing students to work on a one-to-one basis. The School also houses a dedicated shooting studio for camera workshops and one of Pune’s largest fully air-conditioned shooting floors for large-scale productions.`,
     },
     {
       title: "Advanced Post-Production & Sound Facilities",

@@ -20,7 +20,7 @@
   grid-template-columns: repeat(4, 1fr);
   max-width: clamp(65%, 40vw, 90%);
   gap: clamp(10px, 2vw, 30px);
-  margin: 0 auto;
+  margin: 30px auto;
   padding: clamp(1px, 10vw, 50px) 0;
 }
 

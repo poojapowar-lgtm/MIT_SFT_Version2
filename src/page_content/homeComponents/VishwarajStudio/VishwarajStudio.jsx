@@ -43,15 +43,15 @@ const VishwarajStudio = () => {
                 training. The campus houses state of the art production and post
                 production facilities, including high end digital cameras,
                 professional editing suites, and one of the largest air
-                conditioned shooting floors in Pune (110 x 90 x 80 sq. ft.),
+                conditioned shooting floors in Pune ,
                 providing students with immersive, hands on experience using
                 industry-grade equipment.
               </p>
             </div>
 
-            <button className="button" id="studio-btn">
+            {/* <button className="button" id="studio-btn">
               More Facilites
-            </button>
+            </button> */}
           </div>
         </div>
         <p className="size"> Size:(110 x 90 x 80 sq. ft.)</p>

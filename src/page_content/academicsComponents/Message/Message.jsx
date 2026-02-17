@@ -64,10 +64,10 @@ const Message = () => {
             <p> Dear Parents and Students,</p>
             <p>
               On behalf of all our faculty & staff, I welcome you all to the
-              School of Film & Theatre or as we fondly refer to it as SFT. As
+              School of Film & Television or as we fondly refer to it as SFT. As
               dean of SFT, I am very proud of the rich tradition that we have
               adopted to impart experiential learning of Film Education.
-              Endorsed under the aegis MIT ADT University, our program prepares
+              Endorsed under the ages MIT-ADT University, our program prepares
               students to become film makers with the ethical depth and
               intellectual intensity essential to meet the challenges of a time
               of critical transition in society.
@@ -134,12 +134,12 @@ const Message = () => {
               We are passionately dedicated to fostering an environment that
               nurtures creativity and encourages experimentation. Our curriculum
               is thoughtfully designed to build a solid artistic foundation,
-              enabling students to explore cinema from multiple angles—whether
+              enabling students to explore cinema from multiple angles whether
               as a visual art, a storytelling craft, or a social commentary. We
               emphasize the importance of critical thinking, ethical
               storytelling, and cultural awareness, inspiring students to
               develop their unique voice while respecting the rich history of
-              film and theatre.
+              film and Television .
             </p>
           </div>
 
@@ -155,7 +155,7 @@ const Message = () => {
             <div className="leader-info">
               <h4 className="ld-name">Prof. Manish Joshi</h4>
               <p>
-                <span>( Deputy Director , MIT - ADT University )</span>
+                <span>(Dean and Deputy Director - MIT-SFT)</span>
               </p>
             </div>
           </div>
@@ -166,7 +166,7 @@ const Message = () => {
           norms, sparks conversations, and resonates deeply across diverse
           audiences worldwide. Through a dynamic and collaborative learning
           environment, students gain hands-on experience in all aspects of
-          filmmaking—from script writing and directing to editing and
+          filmmaking from script writing and directing to editing and
           distribution. Our faculty, comprised of industry professionals and
           seasoned artists, provides personalized mentorship, guiding students
           through real-world projects and helping them navigate the complexities
@@ -178,7 +178,7 @@ const Message = () => {
           ethical filmmakers who are committed to social responsibility and
           artistic excellence, we aim to shape a new generation of storytellers
           capable of making meaningful contributions to global cinema. Together
-          at SFT, we are redefining the art of filmmaking—creating visionaries
+          at SFT, we are redefining the art of filmmaking creating visionaries
           who are prepared to lead, inspire, and transform the world through the
           power of their stories.
         </p>

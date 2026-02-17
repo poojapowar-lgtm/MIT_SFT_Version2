@@ -22,7 +22,7 @@ const eventsData = [
     points: [
       "Workshop on commercial lighting technique",
       "Workshop on Day-for-night Cinematography",
-      "Workshop on Green Screen &amp; VFX lighting",
+      "Workshop on Green Screen & VFX lighting",
       "Workshop on Camera Movement and Grip Movement",
          "Masterclass – Script to Screen with High – End Digital Cinema Cameras.",
     ],
@@ -57,7 +57,7 @@ const eventsData = [
     title: "VFX & Motion Graphics",
     image: "/assets/images/events/green-croma3.webp",
     points: [
-      "Workshop on Unreal Engine for Virtual Production &amp; CGI Environment",
+      "Workshop on Unreal Engine for Virtual Production & CGI Environment",
       "Workshop on Visual Effects and Virtual Production in Filmmaking",
       "Workshop on Compositing Techniques using The Foundry Nuke",
       "Workshop on Colour Correction and Grading with DaVinci Resolve",

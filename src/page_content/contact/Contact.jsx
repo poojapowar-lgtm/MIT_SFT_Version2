@@ -13,7 +13,7 @@ const Contact = () => {
       <InnerBanner bgImage={bgImage} title={title} subtitle={subtitle} />
 
       <section className="contact-us">
-        <DividerWithTitle title="Cotact Us" />
+        <DividerWithTitle title="Contact Us" />
         <div className="contact-cards">
           {/* Address */}
           <div className="contact-card">
@@ -23,7 +23,7 @@ const Contact = () => {
             <div className="content">
               <h4 className="innerpage-subtitle">Address</h4>
               <p>
-                School of Film & Television, MIT ADT University Campus,
+                School of Film & Television, MIT-ADT University Campus,
                 Rajbaugh, Pune-Solapur Highway, Loni - Kalbhor, Pune,
                 Maharashtra. 412201
               </p>
@@ -42,10 +42,10 @@ const Contact = () => {
               <h4 className="innerpage-subtitle">Enquiry</h4>
               <p>
                 <span>Mobile :</span>
-                +9513237668 +91 86699 82310.
+                +9021080157, +91 8669982310.
               </p>
               <p>
-                <span>Landline :</span>020-67652443
+                {/* <span>Landline :</span>020-67652443 */}
               </p>
             </div>
           </div>
@@ -80,7 +80,7 @@ const Contact = () => {
               <p>
                 Monday – Friday
                 <br />
-                9:00 AM – 5:30 PM
+                09:00 AM – 05:30 PM
               </p>
             </div>
           </div>

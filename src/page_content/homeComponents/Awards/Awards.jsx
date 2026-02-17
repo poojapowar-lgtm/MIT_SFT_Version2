@@ -134,39 +134,39 @@ const Awards = () => {
             </div>
           ))}
         </div>
-           {/* Second Row (4 cards) */}
-      <div className="awards-row four">
-        {awardsData.slice(4, 7).map((item, index) => (
-          <div
-            key={index}
-            className="award-card"
-            style={{
-              backgroundImage: "url(/assets/images/home/award_card_s.svg",
-            }}
-          >
-            <div className="award-content">
-              <p className="film-name">{item.film}</p>
-              <p className="award-name">{item.award}</p>
-              <p className="student-name">{item.student}</p>
+        {/* Second Row (4 cards) */}
+        <div className="awards-row four">
+          {awardsData.slice(4, 7).map((item, index) => (
+            <div
+              key={index}
+              className="award-card"
+              style={{
+                backgroundImage: "url(/assets/images/home/award_card_s.svg",
+              }}
+            >
+              <div className="award-content">
+                <p className="film-name">{item.film}</p>
+                <p className="award-name">{item.award}</p>
+                <p className="student-name">{item.student}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-      </div>
-
-   
 
       {/* Button */}
-      <button className="button" onClick={() => navigate("/award-stories")}>
+      <button
+        className="button"
+        onClick={() => {
+          navigate("/award-stories");
+          window.scrollTo(0, 0);
+        }}
+      >
         View All Awards
       </button>
+
       <div className="carousel-wrapper">
-        {/* <div className="carousel-track"> */}
-        {/* Duplicate array for seamless loop */}
-        {/* {[...images, ...images].map((img, index) => (
-            <img key={index} src={img} alt={`carousel-${index}`} />
-          ))}
-        </div> */}
+ 
         <div className="carousel-track">
           {[...images, ...images].map((item, index) => (
             <a

@@ -16,8 +16,8 @@ const Structure = () => {
           <div className="st-bottom">
             <ul className="page-list">
               <span>Semester Wise Progression</span>
-              <li>1 st SEM – Foundation.</li>
-              <li>2 nd Sem to 4 th Sem – Choices of Specialization.</li>
+              <li>1st SEM – Foundation.</li>
+              <li>2nd Sem to 4th Sem – Choices of Specialization.</li>
               <li>Credit Based – Yes.</li>
               <li>Evaluation Pattern – Continuous Assessment + Jury.</li>
             </ul>
@@ -65,9 +65,9 @@ const Structure = () => {
           <div className="st-bottom">
             <ul className="page-list">
               <span>Semester Wise Progression</span>
-              <li>1 st Year – Foundation Year - 2 Semesters</li>
+              <li>1st Year – Foundation Year - 2 Semesters</li>
               <li>
-                2 nd Year & Third Year– Two Choices of Specialization<br/> – Major &
+                2nd Year & 3rd Year– Two Choices of Specialization<br/> – Major &
                 Minor along with other key components.
               </li>
               <li>Credit Based – Yes.</li>
@@ -111,8 +111,8 @@ const Structure = () => {
           <div className="st-bottom">
             <ul className="page-list">
               <span>Semester Wise Progression</span>
-              <li>1 st Year – Foundation – Understand Filmmaking Core.</li>
-              <li>2 nd Year onwards – Screen Acting.</li>
+              <li>1st Year – Foundation – Understand Filmmaking Core.</li>
+              <li>2nd Year onwards – Screen Acting.</li>
               <li>Credit Based – Yes.</li>
               <li>Evaluation Pattern – Continuous Assessment + Jury.</li>
             </ul>

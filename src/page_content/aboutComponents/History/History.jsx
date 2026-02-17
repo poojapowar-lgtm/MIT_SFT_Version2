@@ -12,7 +12,7 @@ const History = () => {
           <p>
             The Media and Entertainment Industry in India is growing at a pace
             faster than the country’s galloping GDP. The MIT School of Film and
-            Television (SFT) was established in 2015 to address the evolving
+            Television (MIT-SFT) was established in 2015 to address the evolving
             needs of this rapidly expanding sector. The school functions under
             the MIT Art, Design and Technology University Act, 2015 (Government
             of Maharashtra University Act No. XXXIX of 2015) and is located at
@@ -49,7 +49,7 @@ const History = () => {
             subjects such as Political Science, Sociology, Psychology,
             Literature, History of Art, and Music. This holistic academic
             approach provides students with a broad understanding of human
-            behaviour and cultural contexts—essential for crafting meaningful
+            behaviour and cultural contexts essential for crafting meaningful
             and powerful cinematic narratives.
           </p>
           <p>

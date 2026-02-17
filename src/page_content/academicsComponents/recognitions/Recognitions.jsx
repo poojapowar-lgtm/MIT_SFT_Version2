@@ -19,7 +19,7 @@ const recognitionsData = [
     image: "/assets/images/bts/Shaksham_Vyas.webp",
     points: [
       "B.Sc. in Filmmaking - Batch 2020-21, Specialization – Direction & Screenplay Writing",
-      "ALL INDIA CHILDREN EDUCATIONAL eCONTENT COMPETITION (AICEeCC) 2023-24, Organised by NCERT – Best Film.",
+      "All india children educational econtent competition (AICEeCC) 2023-24, Organised by NCERT – Best Film.",
     ],
   },
   {
@@ -28,7 +28,7 @@ const recognitionsData = [
     image: "/assets/images/bts/Rishabh-Nahar.webp",
     points: [
    "M.Sc in Filmmaking - Batch 2021-22, Specialization - Cinematography",
-   "ALL INDIA CHILDREN EDUCATION eCONTENT COMPETITION (AICEeCC) 2023-24, Organised by NCERT- Best Editor"
+   "All india children educational econtent competition (AICEeCC) 2023-24, Organised by NCERT- Best Editor"
     ],
   },
 ];

@@ -2,13 +2,13 @@ import React from "react";
 import "./faculty.css";
 
 const facultyData = [
-  {
-    id: 1,
-    name: "Prof. Manish Joshi",
-    designation: "Dy. Director",
-    department:"",
-    photo: "/assets/images/faculty/Prof. Manish Joshi .webp",
-  },
+  // {
+  //   id: 1,
+  //   name: "Prof. Manish Joshi",
+  //   designation: "Dy. Director",
+  //   department:"",
+  //   photo: "/assets/images/faculty/Prof. Manish Joshi .webp",
+  // },
   {
     id: 2,
     name: "Prof. Gyanesh Kelkar",
@@ -56,10 +56,10 @@ const facultyData = [
 const Faculty = () => {
   return (
     <div>
-      <h2 className="innerpage-title">Message From Dean</h2>
-      <div>
+
+      {/* <div>
         <div className="leadership-content">
-          {/* Left Content */}
+     
           <div className="leadership-text">
             <p> Dear Parents and Students,</p>
             <p>
@@ -82,7 +82,7 @@ const Faculty = () => {
             </p>
           </div>
 
-          {/* Right Content */}
+        
           <div className="leadership-profile">
             <img
               src="/assets/images/faculty/Dr-Mukesh-Sharma.webp"
@@ -108,7 +108,7 @@ const Faculty = () => {
           enriching your careers to explore our school further either online or
           through a visit to our campus.
         </p>
-      </div>
+      </div> */}
 
       <h2 className="innerpage-title">Our Faculty</h2>
       <div className="faculty-container">

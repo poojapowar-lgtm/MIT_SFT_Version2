@@ -34,7 +34,7 @@ const Placements = () => {
   const cardData = [
     {
       title: "Placements & Industry Exposure",
-      description: `At the School of Film & Television (SFT), placements are not limited to a final-year activity—they begin as an integral part of the academic journey. Students are continuously exposed to real-world industry environments, enabling them to build strong professional networks and gain practical experience even before graduation.`,
+      description: `At the School of Film & Television (SFT), placements are not limited to a final-year activity they begin as an integral part of the academic journey. Students are continuously exposed to real-world industry environments, enabling them to build strong professional networks and gain practical experience even before graduation.`,
     },
     {
       title: "On-Campus Industry Interaction",
@@ -87,7 +87,7 @@ const Placements = () => {
               professional relationships not only with filmmakers and senior
               professionals but also with:
             </p>
-            <ul className="page-list">
+            <ul className="page-list" style={{margin:"0px"}}>
               <li>Cinematographers</li>
               <li>Editors</li>
               <li>Sound designers</li>

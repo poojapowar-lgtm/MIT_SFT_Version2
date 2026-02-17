@@ -47,7 +47,7 @@ const Navbar = ({ open, onClose }) => {
             <ul className="submenu">
               <li>
                 <NavLink to="/courses/ba-screen-acting" onClick={onClose}>
-                  B.A Screen Acting
+                  B.A. Screen Acting
                 </NavLink>
               </li>
               <li>
