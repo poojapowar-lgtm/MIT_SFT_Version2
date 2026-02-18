@@ -9,17 +9,15 @@
 //     <section className="scope-section">
 //       {title && <h2 className="innerpage-title">{title}</h2>}
 //       <div className="scope-content">
-    
+
 //         <div className="scope-left">
 //           <img className="scope-img" src={imageSrc} alt={title || "Scope"} />
 //         </div>
 
-  
 //         <div className="scope-right">
 //           <div className="scope-text">{children}</div>
 //         </div>
 //       </div>
-
 
 //       <div className="scope-cta">
 //         <h3 className="btn-heading ">
@@ -65,9 +63,7 @@ const Scope = ({ title, children, images = [], ctaPath }) => {
               key={index}
               src={img}
               alt={`${title}-${index}`}
-              className={`slide ${
-                index === activeIndex ? "active" : ""
-              }`}
+              className={`slide ${index === activeIndex ? "active" : ""}`}
             />
           ))}
         </div>
@@ -83,8 +79,17 @@ const Scope = ({ title, children, images = [], ctaPath }) => {
         <h3 className="btn-heading">
           Every Great Film Begins with a First Frame, Start Yours Here !
         </h3>
-        <button className="button" onClick={() => navigate(ctaPath)}>
-          Apply Now
+        <button
+          onClick={() =>
+            window.open(
+              "https://www.digialm.com/EForms/configuredHtml/176/61093/Registration.html",
+              "_blank",
+            )
+          }
+          className="button"
+          id="footer-btn"
+        >
+        Apply Now
         </button>
       </div>
     </section>

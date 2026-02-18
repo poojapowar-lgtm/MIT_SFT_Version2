@@ -32,9 +32,9 @@ const facultyData = [
   },
   {
     id: 6,
-    name: "Prof. Amarpal Fauzdar",
+    name: "Prof. Amarpal Singh Fauzdar",
     designation: "Assistant Professor",
-     department:"Screenplay Writing",
+     department:"Direction & Screenplay Writing",
     photo: "/assets/images/faculty/Prof. Amarpal Fauzdar Final New.webp",
   },
   {

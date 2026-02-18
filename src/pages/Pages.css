@@ -92,11 +92,11 @@ p {
   margin: clamp(1px, 0.2vw, 10px);
   font-size: clamp(14px, 2.5vw, 20px);
   font-weight: 500;
-  color: #0E0E55;
+  color: #F28C28;
 }
 
 .span-text {
-  color: #b22222;
+  color: #F28C28;
   margin: 10px;
   font-weight: 600;
 }

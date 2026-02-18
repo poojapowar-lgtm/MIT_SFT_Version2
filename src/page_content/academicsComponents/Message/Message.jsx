@@ -93,7 +93,9 @@ const Message = () => {
             <div className="leader-info">
               <h4 className="ld-name">Dr. Mukesh Sharma</h4>
               <p>
-                <span>( Dean of SFT, MIT - ADT University )</span>
+                <span>
+                  ( Dean, Faculty of Film & Media Studies, MIT ADT University.)
+                </span>
               </p>
             </div>
           </div>
@@ -110,7 +112,7 @@ const Message = () => {
           through a visit to our campus.
         </p>
       </div>
-<hr/>
+      <hr />
       <h2 className="innerpage-title">Message From Deputy Director </h2>
       <div>
         <div className="leadership-content">
@@ -155,7 +157,7 @@ const Message = () => {
             <div className="leader-info">
               <h4 className="ld-name">Prof. Manish Joshi</h4>
               <p>
-                <span>(Dean and Deputy Director - MIT-SFT)</span>
+                <span>( Deputy Director, School of Film & Television.)</span>
               </p>
             </div>
           </div>

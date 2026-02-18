@@ -11,25 +11,30 @@
   margin: 10px auto;
 }
 
-.vs-top{
-  background-color: #520c17;
-  padding: 10px;
+.vs-top {
+background: linear-gradient(
+  to bottom right,
+  #520c17,
+  #8b1e2d
+);
+
+  padding: clamp(15px, 2vw, 30px) 0;
 }
+
 .vs-title {
   font-size: clamp(14px, 1.2vw, 22px);
   font-weight: 600;
   margin: 10px;
   color: goldenrod;
   text-transform: uppercase;
-
 }
 
 .ld-card {
   background-color: #520c17;
   border: 1px solid whitesmoke;
-  border-radius: 0px;
-  padding: clamp(11px, 1.2vw, 16px);
   transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  padding: 10px 0;
 }
 
 .ld-card:hover {

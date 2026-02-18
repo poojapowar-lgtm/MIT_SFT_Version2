@@ -66,7 +66,7 @@ const Footer = () => {
               <ul className="page-list">
                 <span className="footer-heading">Contact Us</span>
                 <li>
-                  <a href="tel:+919021080157">+91-9021080157</a>
+                  <a href="tel:+919021080157">+91-9021080127</a>
                 </li>
                 <li>
                   <a href="tel:+918669982310">+91-8669982310</a>

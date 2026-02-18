@@ -42,10 +42,9 @@ const Contact = () => {
               <h4 className="innerpage-subtitle">Enquiry</h4>
               <ul className="page-list" style={{ listStyleType: "none" }}>
                 Mobile :
-                <li>
-                  <a href="tel:+919021080157">+91-9021080157</a>
-                </li>
-                <li>
+                <li style={{ gap: "10px", color: "blue" }}>
+                  <a href="tel:+919021080157">+91-9021080127</a>
+                  <span> | </span>
                   <a href="tel:+918669982310">+91-8669982310</a>
                 </li>
               </ul>

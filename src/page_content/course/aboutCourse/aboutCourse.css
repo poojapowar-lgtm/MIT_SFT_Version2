@@ -8,6 +8,7 @@
 }
 
 .courses-header-right p{
+  color: #F28C28;
   font-weight: 600;
   margin: clamp(5px, 1vw,10px);
 }

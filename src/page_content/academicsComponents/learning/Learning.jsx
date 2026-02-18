@@ -90,7 +90,22 @@ const Learning = () => {
       <h2 className="innerpage-title">Industry-Focused Education</h2>
 
       <section className="vision-section">
-         <div className="vision-cards vs-top">
+    
+        
+        <div className="vision-cards vs-bottom">
+          {cardData.map((card, index) => (
+            <div
+              className="common-card"
+              style={{ maxWidth: "260px"}}
+              key={index}
+            >
+              <p className="innerpage-hg card-hg" >{card.title}</p>
+              <p className="common-card-desc">{card.description}</p>
+            </div>
+          ))}
+        </div>
+<h2 className="innerpage-title">A Guide to Film History</h2>
+            <div className="vision-cards vs-top">
           {cardData2.map((card, index) => (
             <div
               className="common-card ld-card"
@@ -109,21 +124,6 @@ const Learning = () => {
             </div>
           ))}
         </div>
-        
-        <div className="vision-cards vs-bottom">
-          {cardData.map((card, index) => (
-            <div
-              className="common-card"
-              style={{ maxWidth: "260px"}}
-              key={index}
-            >
-              <p className="innerpage-hg card-hg" >{card.title}</p>
-              <p className="common-card-desc">{card.description}</p>
-            </div>
-          ))}
-        </div>
-
-       
       </section>
     </div>
   );

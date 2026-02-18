@@ -36,7 +36,7 @@ box-shadow: 0 4px 15px rgb(129, 128, 128);
 }
 
 span{
-  color: #0E0E55;
+  color: #F28C28;
     font-size: clamp(11px, 1.2vw, 16px);
   font-weight: 600;
   margin-bottom: clamp(5px, 1vw,20px);

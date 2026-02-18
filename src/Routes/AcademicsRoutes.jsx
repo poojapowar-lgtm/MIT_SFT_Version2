@@ -11,7 +11,7 @@ import Placements from "../page_content/academicsComponents/placements/Placement
 
 export const AcademicsRoutes = (
   <Route path="academics" element={<Academics />}>
-    <Route index element={<Faculty />} />
+    <Route index element={<Message />} />
     <Route path="leadership-message" element={<Message />} />
     <Route path="faculty" element={<Faculty />} />
     <Route path="learning-resourses" element={<Learning />} />

@@ -52,7 +52,7 @@
 }
 
 .nav-logos img {
-    height: clamp(45px, 7vw, 80px);
+    height: clamp(45px, 7vw, 75px);
   width: auto;
 }
 /* Menu */
@@ -119,6 +119,7 @@
 
 .sm-text {
   font-size: clamp(9px, 1vw, 14px);
+  margin-bottom: 0px;
   color: black;
 }
 
@@ -129,8 +130,22 @@
   margin: 0;
 }
 
-.nav-contact {
-  margin-top: 0;
-  color: blue;
-  font-size: clamp(11px, 1.5vw, 16px);
+ .nav-contact {
+  list-style: none;       
+  text-align: center !important;      
 }
+
+
+.nav-contact li a {
+  color: #007bff;        
+  text-decoration: none;   
+  /* font-weight: 500;
+    text-align: center;    */
+}
+
+.nav-contact a:hover {
+  text-decoration: underline; 
+}
+
+
+
