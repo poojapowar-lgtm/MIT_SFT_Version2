@@ -1,3 +1,6 @@
+.awards-section{
+  margin-bottom: clamp(10px, 2vw, 50px);
+}
 .awardstory-top {
   max-width: 1200px;
   display: flex;

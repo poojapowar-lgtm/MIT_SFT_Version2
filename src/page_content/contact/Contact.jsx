@@ -40,13 +40,15 @@ const Contact = () => {
             </div>
             <div className="content">
               <h4 className="innerpage-subtitle">Enquiry</h4>
-              <p>
-                <span>Mobile :</span>
-                +9021080157, +91 8669982310.
-              </p>
-              <p>
-                {/* <span>Landline :</span>020-67652443 */}
-              </p>
+              <ul className="page-list" style={{ listStyleType: "none" }}>
+                Mobile :
+                <li>
+                  <a href="tel:+919021080157">+91-9021080157</a>
+                </li>
+                <li>
+                  <a href="tel:+918669982310">+91-8669982310</a>
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -59,10 +61,15 @@ const Contact = () => {
               <h4 className="innerpage-subtitle">Connect</h4>
               <p>
                 <span>Email :</span>
-                 admissions.sft@mituniversity.edu.in
+                <a href="mailto:admissions.sft@mituniversity.edu.in">
+                  admissions.sft@mituniversity.edu.in
+                </a>
               </p>
               <p>
-                <span>Website :</span>www.mituniversity.ac.in
+                <span>Website :</span>
+                <a href="mailto:www.mituniversity.ac.in">
+                  www.mituniversity.ac.in
+                </a>
               </p>
             </div>
           </div>

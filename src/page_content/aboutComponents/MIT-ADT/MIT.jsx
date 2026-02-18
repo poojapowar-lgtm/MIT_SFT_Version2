@@ -1,8 +1,14 @@
 import React from "react";
+import "./mit.css";
 
 const MIT = () => {
+  const images = [
+    "/assets/images/mit/mit.webp",
+    "/assets/images/mit/mit1.jpg",
+  ];
+
   return (
-    <div>
+    <div className="mit-section">
       <h2 className="innerpage-title">About MIT-ADT</h2>
       <p>
         The MIT-ADT Educational Group created history in 2016 when it opened the
@@ -32,6 +38,13 @@ const MIT = () => {
         on the banks of Mula Mutha river. It is a leash green campus with state
         of the art facilities.
       </p>
+       <div className="mit-images">
+        {images.map((img, index) => (
+          <div className="mit-image-wrapper" key={index}>
+            <img src={img} alt={`mit-${index}`} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

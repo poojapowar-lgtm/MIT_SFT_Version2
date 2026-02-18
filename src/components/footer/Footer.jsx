@@ -76,7 +76,7 @@ const Footer = () => {
               <ul className="page-list">
                 <span className="footer-heading">Email</span>
                 <li>
-                  <a href="mailto:admissions.sft@mituniversity.edu.in">
+                  <a href="mailto:admissions.sft@mituniversity.edu.in"   style={{ color: "inherit", textDecoration: "underline", cursor: "pointer" }}>
                     admissions.sft@mituniversity.edu.in
                   </a>
                 </li>

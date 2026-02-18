@@ -90,7 +90,7 @@ const Sidebar = ({ menuItems, onItemClick }) => {
                     {item.name}
                   </NavLink>
                 ) : (
-                  <span className="sidebar-link">{item.name}</span>
+                  <li className="sidebar-link">{item.name}</li>
                 )}
               </li>
             );
