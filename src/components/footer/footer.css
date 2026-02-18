@@ -1,6 +1,4 @@
 .footer {
-  /* background: #000 url("/public/assets/images/background/footer.webp") no-repeat
-    right center / auto 100%; */
   background-color: #520c17;
   padding: clamp(15px, 2vw, 30px);
   box-shadow: 0 -6px 15px rgba(255, 255, 255, 0.35);
@@ -14,11 +12,6 @@
   margin: 0 auto;
   gap: clamp(20px, 15vw, 80px);
 }
-
-/* .footer-section {
-  padding: 8px 0;
-  margin: 0 clamp(20px, 2vw, 50px);
-} */
 
 /* LEFT */
 .footer-logos {
@@ -48,7 +41,8 @@
 }
 
 .footer-map iframe {
-  max-width: clamp(200px, 35vw, 400px);
+  width: 100%;
+  /* max-width: clamp(200px, 35vw, 400px); */
   height: clamp(100px, 15vw, 180px);
   border: 0;
 }
@@ -100,35 +94,6 @@
   margin: 0;
 }
 
-/* #footer-btn {
-  position: absolute;
-  right: clamp(5px, 1vw, 10px);
-  top: clamp(15px, 2vw, 30px);
-} */
-
-/* .footer-image {
-  width: 100%;
-  max-width: clamp(150px, 50vw, 260px);
-  border-radius: clamp(8px, 1vw, 12px);
-  margin-bottom: clamp(12px, 1.5vw, 16px);
-}
-
-.footer-text.vertical-words {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: flex-end;
-  padding-top: 100px;
-}
-
-.footer-text.vertical-words span {
-  display: block;
-  font-size: clamp(25px, 1.5vw, 50px);
-  font-weight: 500;
-  color: whitesmoke;
-  font-style: italic;
-  text-shadow: 3px 1px 0 goldenrod;
-  margin-bottom: clamp(15px, 1.5vw, 30px);
-} */
 
 /* BOTTOM */
 .footer-bottom {
@@ -229,4 +194,8 @@ li a {
   .footer-text.vertical-words {
     display: none !important;
   }
+
+  .footer-map iframe {
+  width: 80%;
+}
 }
