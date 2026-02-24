@@ -86,7 +86,8 @@ const Mentor = () => {
     "/assets/images/home/mentor/mentor.webp",
   ];
   return (
-    <section className="mentor-section">
+    <div style={{backgroundColor:"whitesmoke"}}>
+         <section className="mentor-section">
       <DividerWithTitle title="Our Mentor" />
 
       <div className="mentor-content">
@@ -168,6 +169,8 @@ const Mentor = () => {
         </div>
       </div>
     </section>
+    </div>
+ 
   );
 };
 export default Mentor;

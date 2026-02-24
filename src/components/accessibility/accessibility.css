@@ -1,0 +1,246 @@
+/* ACCESSIBILITY TOGGLE BUTTON*/
+.accessibility-toggle {
+  position: fixed;
+  bottom: clamp(16px, 2vw, 24px);
+  left: clamp(16px, 2vw, 24px);
+  width: clamp(50px, 4vw, 60px);
+  height: clamp(50px, 4vw, 60px);
+  border-radius: 50%;
+  background: goldenrod;
+  color: #000;
+  border: none;
+  font-size: clamp(18px, 2vw, 32px);
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.accessibility-toggle:hover {
+  background: #8b0000;
+  color: #fff;
+  transform: scale(1.08);
+}
+
+/* MODAL*/
+.accessibility-modal {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: whitesmoke;
+  padding: clamp(20px, 3vw, 30px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  z-index: 10000;
+  width: clamp(300px, 30vw, 450px);
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+/* HEADER*/
+.accessibility-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: clamp(18px, 2vw, 25px);
+  border-bottom: 1px solid #b22222;
+  padding-bottom: 12px;
+}
+
+/* COMMON BUTTON STYLES*/
+.close-modal-btn,
+.font-controls button,
+.toggle-btn,
+.reset-btn {
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+/* Common focus style */
+.accessibility-toggle:focus,
+.close-modal-btn:focus,
+.font-controls button:focus,
+.toggle-btn:focus,
+.accessibility-card select:focus {
+  outline: 1px solid #f9be08;
+  outline-offset: 1px;
+}
+
+/* CLOSE BUTTON*/
+.close-modal-btn {
+  background: none;
+  border: none;
+  font-size: clamp(16px, 2vw, 28px);
+  color: #b22222;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.close-modal-btn:hover {
+  transform: scale(1.15);
+}
+
+/* GRID (VERTICAL)*/
+/* .accessibility-grid {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(15px, 2vw, 20px);
+  margin-bottom: 20px;
+} */
+
+/* GRID - 2 CARDS PER ROW */
+.accessibility-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(15px, 2vw, 20px);
+  margin-bottom: 20px;
+}
+
+/* CARDS*/
+.accessibility-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: clamp(5px, 1vw, 12px);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.accessibility-card:hover {
+  border-color: goldenrod;
+  box-shadow: 0 4px 10px rgba(178, 34, 34, 0.2);
+}
+
+.accessibility-card h3 {
+  margin: 0 0 12px;
+  color: #333;
+  font-size: clamp(12px, 1.2vw, 16px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.card-desc {
+  color: #666;
+  margin-top: 6px;
+}
+
+/* FONT CONTROLS*/
+.font-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.font-controls button {
+  width: clamp(36px, 3vw, 42px);
+  height: clamp(36px, 3vw, 42px);
+  border: 1px solid #b22222;
+  background: #fff;
+  color: #b22222;
+  font-weight: bold;
+  font-size: clamp(12px, 1.2vw, 16px);
+}
+
+.font-controls button:hover,
+.toggle-btn.active {
+  background: #b22222;
+  color: #fff;
+}
+
+/* TOGGLE BUTTON*/
+.toggle-btn {
+  padding: clamp(5px, 1vw, 10px);
+  border: 1px solid #b22222;
+  background: #fff;
+  color: #b22222;
+  font-weight: 600;
+  font-size: clamp(11px, 1vw, 14px);
+  min-width: 70px;
+}
+
+.toggle-btn:hover {
+  transform: scale(1.05);
+}
+
+/* SELECT*/
+.accessibility-card select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b22222;
+  border-radius: 8px;
+  font-size: clamp(11px, 1vw, 14px);
+  background: #fff;
+  cursor: pointer;
+}
+
+/* RESET BUTTON*/
+.reset-btn {
+  width: 100%;
+  padding: clamp(5px, 1vw, 10px);
+  background: #f9be08;
+  color: #000;
+  border: none;
+  font-weight: 600;
+  font-size: clamp(12px, 1.2vw, 16px);
+}
+
+.reset-btn:hover {
+  background: #b22222;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* ACCESSIBILITY MODES*/
+body.high-contrast {
+  filter: contrast(1.8) brightness(1.1);
+}
+
+body.high-contrast * {
+  border-color: #000 !important;
+}
+
+body.big-cursor,
+body.big-cursor * {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'><path fill='%23000' stroke='%23fff' stroke-width='1' d='M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z'/></svg>") 12 12, auto !important;
+}
+
+body.reading-guide::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,.7) 0%,
+    rgba(0,0,0,.7) 45%,
+    transparent 48%,
+    transparent 52%,
+    rgba(0,0,0,.7) 55%,
+    rgba(0,0,0,.7) 100%
+  );
+  pointer-events: none;
+  z-index: 9998;
+}
+
+body.no-animations * {
+  animation: none !important;
+  transition: none !important;
+}
+
+body.colorblind-monochrome {
+  filter: grayscale(100%);
+}
+
+/* MOBILE*/
+@media (max-width: 768px) {
+  .accessibility-modal {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
