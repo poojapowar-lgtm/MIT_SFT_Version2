@@ -233,6 +233,18 @@ body.no-animations * {
   transition: none !important;
 }
 
+body.colorblind-protanopia {
+  filter: sepia(100%) hue-rotate(-50deg) saturate(300%);
+}
+
+body.colorblind-deuteranopia {
+  filter: sepia(100%) hue-rotate(90deg) saturate(200%);
+}
+
+body.colorblind-tritanopia {
+  filter: sepia(100%) hue-rotate(180deg) saturate(150%);
+}
+
 body.colorblind-monochrome {
   filter: grayscale(100%);
 }
