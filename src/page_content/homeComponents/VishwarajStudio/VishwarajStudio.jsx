@@ -22,11 +22,23 @@ const VishwarajStudio = () => {
   }, []);
 
   return (
-    <div className="vj-section">
-      <DividerWithTitle title="Where Student Sets Become Real Stories" />
+<div> <DividerWithTitle title="Where Student Sets Become Real Stories" />
       <h3 className="subtitle">
         Vishwaraj Studio, India's Largest Shooting Studio For A Film School
       </h3>
+  
+         <div className="vj-section">
+      <p className="studio-text">
+        A fully air-conditioned shooting floor enables large scale set
+        construction, controlled lighting, and immersive production
+        training. The campus houses state of the art production and post
+        production facilities, including high end digital cameras,
+        professional editing suites, and one of the largest air
+        conditioned shooting floors in Pune ,
+        providing students with immersive, hands on experience using
+        industry-grade equipment.
+      </p>
+       </div>
       <section
         className="vishwaraj-wrapper"
         style={{
@@ -34,7 +46,7 @@ const VishwarajStudio = () => {
         }}
       >
         {/* Content */}
-        <div className="studio-content">
+        {/* <div className="studio-content">
           <div className="studio-section">
             <div>
               <p className="studio-text">
@@ -49,13 +61,11 @@ const VishwarajStudio = () => {
               </p>
             </div>
 
-            {/* <button className="button" id="studio-btn">
-              More Facilites
-            </button> */}
           </div>
-        </div>
+        </div> */}
         <p className="size"> Size:(110 x 90 x 80 sq. ft.)</p>
       </section>
+ 
     </div>
   );
 };

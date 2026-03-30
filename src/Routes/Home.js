@@ -7,6 +7,7 @@ import VishwarajStudio from "../page_content/homeComponents/VishwarajStudio/Vish
 import Mentor from "../page_content/homeComponents/Mentor/Mentor";
 import Banner from "../components/banner/Banner";
 import AlumniSpeak from "../page_content/homeComponents/alumnispeak/AlumniSpeak";
+import Dean from "../page_content/homeComponents/Mentor/Dean";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Awards />
       <VishwarajStudio/>
       <Mentor/>
+      <Dean/>
       <AlumniSpeak/>
     </>
   );

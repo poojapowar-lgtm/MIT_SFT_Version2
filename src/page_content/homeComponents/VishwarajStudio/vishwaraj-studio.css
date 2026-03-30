@@ -1,18 +1,23 @@
+.vj-section {
+  padding: 5px clamp(5px, 2vw, 20px);
+  background: #520c17;
+  text-align: center;
+}
 
 .vishwaraj-wrapper {
   position: relative;
-  padding-bottom: 20%;
+  padding-bottom: 30%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: overlay;
+  /* background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay; */
 }
 
 /* Layout */
 .studio-content {
   display: flex;
-  padding:  clamp(12px, 3vw, 20px);
+  padding: clamp(12px, 3vw, 20px);
 }
 
 .studio-section {
@@ -42,8 +47,7 @@
 
 @media (max-width: 768px) {
   .vishwaraj-wrapper {
-    padding-bottom: 10%;
-    background-color: rgba(0, 0, 0, 0.7); 
+    padding-bottom: 60%;
   }
 
   .studio-text {
