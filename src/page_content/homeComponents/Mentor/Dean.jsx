@@ -1,10 +1,13 @@
 import React from "react";
 import { useState } from "react";
 import "./dean.css";
+import { useNavigate } from "react-router-dom";
 import DividerWithTitle from "../../../components/reuseable_components/DividerWithTitle/DividerWithTitle";
 
 
 const Dean = () => {
+    const navigate = useNavigate();
+
     const [expanded, setExpanded] = useState(false);
 
     const images = [
@@ -28,15 +31,6 @@ const Dean = () => {
         "/assets/images/dean/Anup_Jalota.jpg",
         "/assets/images/dean/Ashaji.jpg",
         "/assets/images/dean/cineAward3.jpg",
-        // "/assets/images/dean/IMG _0006.jpg",
-        // "/assets/images/dean/IMG _0007.jpg",
-        // "/assets/images/dean/IMG _0011.jpg",
-        // "/assets/images/dean/IMG _0013.jpg",
-        // "/assets/images/dean/IMG _0016.jpg",
-        // "/assets/images/dean/IMG _0018.jpg",
-        // "/assets/images/dean/IMG _4001.jpg",
-        // "/assets/images/dean/IMG _5175.jpg",
-
     ];
 
     return (
@@ -52,9 +46,12 @@ const Dean = () => {
                             className="dean-img"
                         />
                         <h4 className="subtitle" style={{ marginBottom: "0px" }}>Dr. Mukesh Sharma</h4>
-                        {/* <p className="mentor-message">
-                            (Dean, Faculty of Film & Media Studies, MIT ADT University.)
-                        </p> */}
+                        <button
+                            className="button"
+                            onClick={() => navigate("/filmaker")} style={{marginTop:"5px"}}
+                        >
+                          Know More
+                        </button>
                     </div>
 
                     <div className="dean-right">
