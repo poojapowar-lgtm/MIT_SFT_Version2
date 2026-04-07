@@ -6,9 +6,10 @@ const videos = [
     "https://youtu.be/qlqxu1Kl7K8",
     "https://youtube.com/shorts/IvIdxYKtyAA?feature=share",
     "https://youtube.com/shorts/XFi7TtWfTGg?feature=share",
-    "https://www.youtube.com/embed/tgbNymZ7vqY",
-    "https://www.youtube.com/embed/aqz-KE-bpKQ",
-    "https://www.youtube.com/embed/ScMzIvxBSi4"
+    "https://youtube.com/shorts/CtwaQmWoR3A?feature=share",
+    "https://youtube.com/shorts/AgE0YE0k62E?feature=share",
+    "https://youtu.be/sCQhq5aOIs8",
+    "https://youtu.be/pOUGfuO8rLQ"
 ];
 
 const Filmaker = () => {
