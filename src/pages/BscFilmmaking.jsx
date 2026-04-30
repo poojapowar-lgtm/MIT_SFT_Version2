@@ -90,7 +90,7 @@ const BscFilmmaking = () => {
         <div className="page-content">
           <section ref={aboutRef} id="about-course">
             <AboutCourse
-              title="About Course"
+              title="About  B.Sc. in Filmmaking"
               headerRight={
                 <>
                   <p>Eligibility: 10 + 2 Any Stream or Equivalent</p>
@@ -112,9 +112,9 @@ const BscFilmmaking = () => {
                 </p>
                 <p>
                   The program offers structured exposure to all core filmmaking
-                  disciplines—direction and screenplay writing, cinematography,
+                  disciplines direction and screenplay writing, cinematography,
                   editing, sound recording and design, and VFX & motion
-                  graphics—before students choose their major and minor
+                  graphics before students choose their major and minor
                   specializations. This holistic approach ensures a deep
                   understanding of the complete filmmaking process, from concept
                   development to post-production.
@@ -135,12 +135,16 @@ const BscFilmmaking = () => {
             </AboutCourse>
           </section>
 
-          <Specialization specializationTitle="Specializations Offered"/>
+          <Specialization specializationTitle="Specializations Offered" />
 
           <section ref={curriculumRef} id="curriculum">
             <Curriculum
               title="Academic Curriculum"
-              imageSrc="/assets/images/bts/Bsc.webp"
+              images={[
+                "/assets/images/bts/Bsc.webp",
+                "/assets/images/bts/Bsc2.webp",
+                "/assets/images/bts/Bsc3.webp",
+              ]}
             >
               <p>
                 The B.Sc. in Filmmaking program follows a production and
@@ -171,7 +175,12 @@ const BscFilmmaking = () => {
           <section ref={futureRef} id="future">
             <Scope
               title="Future Scope"
-              imageSrc="/assets/images/bts/bts-actor1.webp"
+              images={[
+                "/assets/images/bts/Bsc-shooting.webp",
+                "/assets/images/bts/Bsc4.webp",
+                "/assets/images/bts/Bsc5.webp",
+                "/assets/images/bts/Bsc6.webp",
+              ]}
               ctaPath="/careers"
             >
               <p>

@@ -4,9 +4,7 @@ import React from "react";
 const Message = () => {
   return (
     <div>
-      <h2 className="innerpage-title">Message from Mentor</h2>
-
-      <div>
+      {/*    <h2 className="innerpage-title">Message from Mentor</h2><div>
         <div className="leadership-content">
           <div className="leadership-text">
             <p> Dear Parents and Students,</p>
@@ -57,62 +55,78 @@ const Message = () => {
           values of excellence, integrity, and innovation that define our
           university.
         </p>
-      </div>
-
-      <hr />
-      <h2 className="innerpage-title">Message From Dean</h2>
+      </div> */}
+  
+      <h2 className="innerpage-title">Message From Deputy Director </h2>
       <div>
         <div className="leadership-content">
           {/* Left Content */}
           <div className="leadership-text">
             <p> Dear Parents and Students,</p>
-            <p>
-              On behalf of all our faculty & staff, I welcome you all to the
-              School of Film & Theatre or as we fondly refer to it as SFT. As
-              dean of SFT, I am very proud of the rich tradition that we have
-              adopted to impart experiential learning of Film Education.
-              Endorsed under the aegis MIT ADT University, our program prepares
-              students to become film makers with the ethical depth and
-              intellectual intensity essential to meet the challenges of a time
-              of critical transition in society.
-            </p>
 
             <p>
-              Generating Ideas is not a problem. But the lack of know how as to
-              how to give them shape, is what prevents us from reaching our
-              goal. It’s one’s attachment to the baggage that we carry, that
-              prevents us from giving fruition to our ideas. Here’s where SFT
-              comes into picture. 
+              Welcome to the School of Film & Television (SFT), a vibrant and
+              inspiring hub where boundless imagination converges with
+              innovative techniques, creating a fertile ground for stories to
+              unfold and find their authentic cinematic voice. At SFT, we
+              believe that filmmaking is not just an art form but a powerful
+              medium for cultural expression, social dialogue, and personal
+              storytelling. Our mission is to revolutionize the way stories are
+              told by blending the timeless traditions of narrative craft with
+              the latest advancements in technology, ensuring that our students
+              are equipped to thrive in an ever-changing cinematic landscape.
+            </p>
+            <p>
+              We are passionately dedicated to fostering an environment that
+              nurtures creativity and encourages experimentation. Our curriculum
+              is thoughtfully designed to build a solid artistic foundation,
+              enabling students to explore cinema from multiple angles whether
+              as a visual art, a storytelling craft, or a social commentary. We
+              emphasize the importance of critical thinking, ethical
+              storytelling, and cultural awareness, inspiring students to
+              develop their unique voice while respecting the rich history of
+              film and Television .
             </p>
           </div>
 
           {/* Right Content */}
           <div className="leadership-profile">
             <img
-              src="/assets/images/inner-banner/Dr-Mukesh-Sharma.webp"
+              src="/assets/images/faculty/Prof-Manish-Joshi.webp"
               alt="Leader"
               className="leader-image"
-              // style={{ maxHeight: "250px" }}
+              style={{ maxWidth: "300px" }}
             />
 
             <div className="leader-info">
-              <h4 className="ld-name">Dr. Mukesh Sharma</h4>
+              <h4 className="ld-name">Prof. Manish Joshi</h4>
               <p>
-                <span>( Dean of SFT, MIT - ADT University )</span>
+                <span>( Deputy Director, School of Film & Television.)</span>
               </p>
             </div>
           </div>
         </div>
         <p>
-          Our carefully constructed curriculum uses a combination of in
-          classroom teachings and real world film making simulations, along with
-          assurance of learning pushes the students to think outside the box.
-          Change starts with you! Giving yourself permission to push outside
-          expectations, unleashing your curiosity to discover what’s next and
-          imagining a future other can’t yet see. I would like to cordially
-          invite all of you who are interested in expanding your knowledge and
-          enriching your careers to explore our school further either online or
-          through a visit to our campus.
+          At SFT, our overarching goal is to empower aspiring filmmakers to
+          produce work that not only entertains but also challenges societal
+          norms, sparks conversations, and resonates deeply across diverse
+          audiences worldwide. Through a dynamic and collaborative learning
+          environment, students gain hands-on experience in all aspects of
+          filmmaking from script writing and directing to editing and
+          distribution. Our faculty, comprised of industry professionals and
+          seasoned artists, provides personalized mentorship, guiding students
+          through real-world projects and helping them navigate the complexities
+          of the digital age.
+        </p>
+        <p>
+          We believe that the future of cinema lies in innovation, inclusivity,
+          and storytelling that is both authentic and impactful. By cultivating
+          ethical filmmakers who are committed to social responsibility and
+          artistic excellence, we aim to shape a new generation of storytellers
+          capable of making meaningful contributions to global cinema. Together
+          at SFT, we are redefining the art of filmmaking creating visionaries
+          who are prepared to lead, inspire, and transform the world through the
+          power of their stories.
         </p>
       </div>
     </div>

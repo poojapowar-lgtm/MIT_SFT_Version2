@@ -1,12 +1,48 @@
-.learning-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: clamp(20px, 2vw, 40px) clamp(15px, 1.5vw, 20px);
+.vs-bottom {
+  margin-top: clamp(10px, 2vw, 50px);
+}
+/* underline */
+.card-hg::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 1.2px;
+  background-color: #520c17;
+  margin: 10px auto;
 }
 
-/* GRID */
-.learning-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: clamp(25px, 3vw, 40px);
+.vs-top {
+background: linear-gradient(
+  to bottom right,
+  #520c17,
+  #8b1e2d
+);
+
+  padding: clamp(15px, 2vw, 30px) 0;
+}
+
+.vs-title {
+  font-size: clamp(14px, 1.2vw, 22px);
+  font-weight: 600;
+  margin: 10px;
+  color: goldenrod;
+  text-transform: uppercase;
+}
+
+.ld-card {
+  background-color: #520c17;
+  border: 1px solid whitesmoke;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.ld-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-link-btn {
+  /* text-decoration: none; */
+  font-size: clamp(11px, 1.2vw, 16px);
+  color: white;
 }

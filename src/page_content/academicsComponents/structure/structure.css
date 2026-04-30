@@ -12,4 +12,40 @@
   max-width: clamp(320px, 70vw, 1200px);
   margin: 0 auto;
   text-align: left;
+  border: none;
+box-shadow: 0 4px 15px rgb(129, 128, 128);
+}
+
+.st-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ .st-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 50px;
+}
+
+.course-img{
+  height: clamp(150px, 15vw,250px);
+}
+
+span{
+  color: #F28C28;
+    font-size: clamp(11px, 1.2vw, 16px);
+  font-weight: 600;
+  margin-bottom: clamp(5px, 1vw,20px);
+}
+
+@media (max-width: 780px) {
+.st-bottom{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
 }

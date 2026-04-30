@@ -9,40 +9,48 @@ import DividerWithTitle from "../../../components/reuseable_components/DividerWi
 const alumniData = [
   {
     name: "Aishwarya Pardeshi ",
-    course: "B.Sc Filmmaking ( Specialization : Cinematography)",
+    course: "B.Sc Filmmaking",
+    des: "(Specialization : Cinematography)",
 
     video: "https://www.youtube.com/watch?v=jObopxaHBQ8",
   },
-   {
+  {
     name: "Gunjan Jaywant",
-    course: "M.Sc Filmmaking ( Specialization : Cinematography)",
+    course: "M.Sc Filmmaking ",
+    des: "(Specialization : Cinematography)",
     video: "https://www.youtube.com/watch?v=-wLlPxmT00M",
   },
   {
     name: "Harsh Balpande",
-    course: "B.Sc Filmmaking ( Specialization : film editing)",
+    course: "B.Sc Filmmaking ",
+    des: "(Specialization : film editing)",
     video: "https://www.youtube.com/embed/0RWqcbW7jxc",
   },
   {
     name: "Jay Agarwal",
-    course: "B.Sc Filmmaking ( Specialization : Screenplay Writing & Direction)",
+    course:
+      "B.Sc Filmmaking",
+    des: "(Specialization : Screenplay Writing & Direction)",
     video: "https://www.youtube.com/watch?v=LKUwDwdpqYU",
   },
   {
     name: "Bhushan Gokhale",
-    course: "B.Sc Filmmaking ( Specialization : Direction)",
+    course: "B.Sc Filmmaking",
+    des: "(Specialization : Direction)",
     video: "https://www.youtube.com/watch?v=hw0-UhiiRQ8",
   },
   {
     name: "Vishesh Iyer",
-    course: "B.Sc Filmmaking ( Specialization : Direction)",
+    course: "B.Sc Filmmaking",
+    des: "(Specialization : Direction)",
     video: "https://www.youtube.com/watch?v=5PvkUzzoNZ4",
   },
   {
     name: "Siddhant Temkar",
-    course: "B.Sc Filmmaking ( Specialization : Cinematography)",
+    course: "B.Sc Filmmaking",
+    des: "(Specialization : Cinematography)",
     video: "https://www.youtube.com/watch?v=m70MbrObNyY",
-  }
+  },
 ];
 
 const AlumniSpeak = () => {
@@ -63,9 +71,9 @@ const AlumniSpeak = () => {
   };
 
   const getEmbedUrl = (url) => {
-  const videoId = url.split("v=")[1]?.split("&")[0] || url.split("/").pop();
-  return `https://www.youtube.com/embed/${videoId}`;
-};
+    const videoId = url.split("v=")[1]?.split("&")[0] || url.split("/").pop();
+    return `https://www.youtube.com/embed/${videoId}`;
+  };
 
   return (
     <section className="alumni-speak">
@@ -91,7 +99,8 @@ const AlumniSpeak = () => {
 
               <div className="alumni-info">
                 <h4 className="alumni-name">{item.name}</h4>
-                <p>{item.course}</p>
+                <p style={{marginBottom:"0"}}>{item.course}</p>
+                <p style={{margin:"0px"}}>{item.des}</p>
               </div>
             </div>
           ))}

@@ -49,6 +49,7 @@
   opacity: 0;
   transform: translateY(clamp(20px, 5vw, 40px));
   animation: slideIn clamp(0.8s, 1.5s, 1.5s) forwards;
+    background-color: whitesmoke;
 }
 
 

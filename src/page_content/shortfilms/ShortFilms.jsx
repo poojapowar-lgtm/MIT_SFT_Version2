@@ -249,7 +249,7 @@ const filteredFilms = imagesTwo.filter(
           <div className="section-header">
             <h2 className="innerpage-title ">Award Winning Short Films</h2>
 
-            <div className="filters">
+            {/* <div className="filters">
               <select
                 className="button"
                 value={category}
@@ -266,10 +266,8 @@ const filteredFilms = imagesTwo.filter(
                 onChange={(e) => setYear(e.target.value)}
               >
                 <option>All Years</option>
-                {/* <option>2022-23</option>
-                <option>2021-22</option> */}
               </select>
-            </div>
+            </div> */}
           </div>
 
           {/* <div className="cards-grid">
@@ -299,14 +297,13 @@ const filteredFilms = imagesTwo.filter(
           <div className="section-header">
             <h2 className="innerpage-title"> Short Films</h2>
 
-            <div className="filters">
+            {/* <div className="filters">
               <select
                 className="button"
                 value={category}
                 onChange={(e) => setCategory(e.target.value)}
               >
                 <option>Documentary</option>
-                <option>Fiction</option>
               </select>
 
               <select
@@ -318,7 +315,7 @@ const filteredFilms = imagesTwo.filter(
                 <option value="2026">2026</option>
                 <option value="2025">2025</option>
               </select>
-            </div>
+            </div> */}
           </div>
 
           <div className="cards-grid">

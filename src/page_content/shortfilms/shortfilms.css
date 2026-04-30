@@ -42,7 +42,7 @@
 /* Image */
 .film-card img {
   width: 100%;
-  height: clamp(140px, 20vw, 350px);
+    height: clamp(200px, 30vw, 350px);
   object-fit: cover;
   display: block;
 }

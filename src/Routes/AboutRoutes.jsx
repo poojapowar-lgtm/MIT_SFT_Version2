@@ -11,13 +11,13 @@ import Achievements from "../page_content/aboutComponents/Achievements/Achieveme
 
 export const AboutRoutes = (
   <Route path="about" element={<AboutUs />}>
-      <Route index element={<MIT/>} />
-    <Route path="about-mit" element={<MIT/>} />
-    <Route path="leadership" element={<Leadership/>} />
-    <Route path="history" element={<History/>} />
-    <Route path="vision-mission" element={<Vision/>} />
-    <Route path="features" element={<Features/>} />
-    <Route path="usp" element={<USP/>} />
-    <Route path="achievements" element={<Achievements/>} />
+    <Route index element={<MIT />} />
+    <Route path="about-mit" element={<MIT />} />
+    <Route path="leadership" element={<Leadership />} />
+    <Route path="history" element={<History />} />
+    <Route path="vision-mission" element={<Vision />} />
+    <Route path="features" element={<Features />} />
+    <Route path="usp" element={<USP />} />
+    <Route path="achievements" element={<Achievements />} />
   </Route>
 );

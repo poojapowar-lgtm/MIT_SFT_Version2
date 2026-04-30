@@ -5,18 +5,18 @@ import { useNavigate } from "react-router-dom";
 import "./banner.css";
 
 const images = [
-  "/assets/images/banner/bn.jpg",
-  "/assets/images/banner/bn9.jpg",
-  "/assets/images/banner/bn11.jpg",
-  "/assets/images/banner/bn2.jpg",
-  "/assets/images/banner/bn3.jpg",
-  "/assets/images/banner/bn4.jpg",
-  "/assets/images/banner/bn5.jpg",
-  "/assets/images/banner/bn6.jpg",
-  "/assets/images/banner/bn7.jpg",
-  "/assets/images/banner/bn1.jpg",
-  "/assets/images/banner/bn8.jpg",
-  "/assets/images/banner/bn10.jpg",
+  "/assets/images/banner/bn.webp",
+  "/assets/images/banner/bn9.webp",
+  "/assets/images/banner/bn11.webp",
+  "/assets/images/banner/bn2.webp",
+  "/assets/images/banner/bn3.webp",
+  "/assets/images/banner/bn4.webp",
+  "/assets/images/banner/bn5.webp",
+  "/assets/images/banner/bn6.webp",
+  "/assets/images/banner/bn7.webp",
+  "/assets/images/banner/bn1.webp",
+  "/assets/images/banner/bn8.webp",
+  "/assets/images/banner/bn10.webp",
 ];
 
 // const Banner = () => {
@@ -82,24 +82,49 @@ const images = [
 
 const Banner = () => {
   const [index, setIndex] = useState(0);
+  const [prevIndex, setPrevIndex] = useState(0);
+
+  // preload
+  useEffect(() => {
+    images.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setIndex((prev) => (prev + 1) % images.length);
+  //   }, 3000);
+
+  //   return () => clearInterval(interval);
+  // }, [images.length]);
 
   useEffect(() => {
     const interval = setInterval(() => {
+      setPrevIndex(index);
       setIndex((prev) => (prev + 1) % images.length);
-    }, 1500);
+    }, 3500);
 
     return () => clearInterval(interval);
-  }, []);
-
+  }, [index]);
   return (
     <div className="banner">
       <section className="bnr-section">
-        <div
+        {/* <div
           className="bnr-container banner-bg"
           style={{
             backgroundImage: `url(${images[index]})`,
           }}
-        ></div>
+        ></div> */}
+        <div
+          className="slide slide-prev"
+          style={{ backgroundImage: `url(${images[prevIndex]})` }}
+        />
+        <div
+          className="slide slide-current"
+          style={{ backgroundImage: `url(${images[index]})` }}
+        />
       </section>
     </div>
   );

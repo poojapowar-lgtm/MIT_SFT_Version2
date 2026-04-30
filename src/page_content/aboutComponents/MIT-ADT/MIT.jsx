@@ -1,11 +1,17 @@
 import React from "react";
+import "./mit.css";
 
 const MIT = () => {
+  const images = [
+    "/assets/images/mit/mit.webp",
+    "/assets/images/mit/mit1.jpg",
+  ];
+
   return (
-    <div>
+    <div className="mit-section">
       <h2 className="innerpage-title">About MIT-ADT</h2>
       <p>
-        The MIT Educational Group created history in 2016 when it opened the
+        The MIT-ADT Educational Group created history in 2016 when it opened the
         doors of its first institution on the breathtaking Vishwaraj Baug campus
         in Loni Kalbhor. The business acquired property that belonged to the
         late Indian actor Shri Raj Kapoorji in 2001. His tireless work enabled
@@ -26,12 +32,19 @@ const MIT = () => {
       </p>
 
       <p>
-        The MIT ADT University is approved by Maharashtra state Government, the
-        Gazette published on the 21st of August 2015. The MIT ADT University is
+        The MIT-ADT University is approved by Maharashtra state Government, the
+        Gazette published on the 21st of August 2015. The MIT-ADT University is
         situated at Loni Kalbhor, Pune, and it is spread over 85 acres of land
         on the banks of Mula Mutha river. It is a leash green campus with state
         of the art facilities.
       </p>
+       <div className="mit-images">
+        {images.map((img, index) => (
+          <div className="mit-image-wrapper" key={index}>
+            <img src={img} alt={`mit-${index}`} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

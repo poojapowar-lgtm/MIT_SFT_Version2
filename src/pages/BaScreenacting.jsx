@@ -68,7 +68,7 @@ const BaScreenacting = () => {
         <div className="page-content">
           <section ref={aboutRef} id="about-course">
             <AboutCourse
-              title="About Course"
+              title="About B.A. in Screen Acting "
               headerRight={
                 <>
                   <p>Eligibility: 10 + 2 Any Stream or Equivalent </p>
@@ -94,7 +94,7 @@ const BaScreenacting = () => {
                   editing, sound recording and design, and VFX & motion
                   graphics. This interdisciplinary foundation enables acting
                   students to understand camera language, shot composition,
-                  continuity, sound, and post-production—significantly enhancing
+                  continuity, sound, and post-production significantly enhancing
                   their ability to perform with awareness, precision, and
                   creative sensitivity.
                 </p>
@@ -114,7 +114,7 @@ const BaScreenacting = () => {
                   sets. Through supervised productions, workshops, and
                   jury-evaluated performances, the program develops versatile,
                   industry-ready screen actors with a strong foundation in
-                  cinematic storytelling—preparing them to work across all
+                  cinematic storytelling preparing them to work across all
                   platforms where cinema is created and experienced.
                 </p>
               </div>
@@ -124,7 +124,11 @@ const BaScreenacting = () => {
           <section ref={curriculumRef} id="curriculum">
             <Curriculum
               title="Academic Curriculum"
-              imageSrc="/assets/images/bts/BA-shoot.webp"
+              images={[
+                "/assets/images/bts/BA2.webp",
+                "/assets/images/bts/BA-Shoot.webp",
+                "/assets/images/bts/shooting.webp",
+              ]}
             >
               <p>
                 The B.A. in Screen Acting program offers a structured and
@@ -163,7 +167,11 @@ const BaScreenacting = () => {
           <section ref={futureRef} id="future">
             <Scope
               title="Future Scope"
-              imageSrc="/assets/images/home/programs3.webp"
+              images={[
+                "/assets/images/bts/BA.webp",
+                "/assets/images/bts/BA3.webp",
+                "/assets/images/bts/actor2.webp",
+              ]}
               ctaPath="/careers"
             >
               <p>

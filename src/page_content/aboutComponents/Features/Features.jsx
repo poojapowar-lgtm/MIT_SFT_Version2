@@ -43,19 +43,19 @@ const featuresDataOne = [
 const featuresDataTwo = [
   {
     title: "Production-Based Learning Framework",
-    desc: "Learning is driven by hands-on film and performance projects each semester, evaluated by industry juries to ensure continuous professional feedback and real- world readiness.",
+    desc: "Learning is driven by hands on film and performance projects each semester, evaluated by industry juries to ensure continuous professional feedback and real world readiness.",
   },
   {
     title: "Internationally Benchmarked Curriculum",
-    desc: "Programs are structured in alignment with global film school practices, emphasizing cinematic storytelling, technical craft, and industry-standard workflows.",
+    desc: "Programs are structured in alignment with global film school practices, emphasizing cinematic storytelling, technical craft, and industry standard workflows.",
   },
   {
     title: "One of Pune’s Largest Professional Shooting Studios",
-    desc: "A fully air-conditioned shooting floor enables large-scale set construction, controlled lighting, and immersive production training.",
+    desc: "A fully air-conditioned shooting floor enables large scale set construction, controlled lighting, and immersive production training.",
   },
   {
     title: "One-to-One Access to Professional Equipment",
-    desc: "Students work individually with high-end still and digital cameras, professional sound recording systems, and Mac- and PC-based editing suites with industry- standard software.",
+    desc: "Students work individually with high end still and digital cameras, professional sound recording systems, and Mac and PC based editing suites with industry standard software.",
   },
   {
     title: "Strong Industry Interface & Festival Exposure",
@@ -63,7 +63,7 @@ const featuresDataTwo = [
   },
   {
     title: "Legacy-Driven Learning Environment",
-    desc: "Located at Rajbaug on a 120-acre campus along the river Mutha—home to legendary filmmaker Raj Kapoor—the School draws inspiration from a rich cinematic legacy.",
+    desc: "Located at Rajbaug on a 120-acre campus along the river Mutha home to legendary filmmaker Raj Kapoor the School draws inspiration from a rich cinematic legacy.",
   },
   {
     title: "Integrated Multidisciplinary Creative Campus",

@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
 import { LuArrowUp } from "react-icons/lu";
@@ -47,23 +48,38 @@ const Footer = () => {
           <div className="footer-links">
             <ul className="page-list">
               <span className="footer-heading">Quick Links</span>
-              <li>About Us</li>
-              <li>Blogs</li>
-              <li>News</li>
-              <li>Courses</li>
+              <li>
+                <Link to="/about">About Us</Link>
+              </li>
+              <li>
+                <Link to="/academics">Academics</Link>
+              </li>
+              <li>
+                <Link to="/short-film">Short Films</Link>
+              </li>
+              <li>
+                <Link to="/admission">Admission</Link>
+              </li>
             </ul>
             {/* Contact + Admission Row */}
             <div className="contact-admission">
               <ul className="page-list">
                 <span className="footer-heading">Contact Us</span>
-                <li>+91-96655 43913</li>
-                <li>+91-93253 40706</li>
+                <li>
+                  <a href="tel:+919021080157">+91-9021080127</a>
+                </li>
+                <li>
+                  <a href="tel:+918669982310">+91-8669982310</a>
+                </li>
               </ul>
 
               <ul className="page-list">
-                <span className="footer-heading">For Admission</span>
-                <li>admission.sft@mituniversity.edu.in</li>
-                <li>shraddha.kohad@mituniversity.edu.in</li>
+                <span className="footer-heading">Email</span>
+                <li>
+                  <a href="mailto:admissions.sft@mituniversity.edu.in"   style={{ color: "inherit", textDecoration: "underline", cursor: "pointer" }}>
+                    admissions.sft@mituniversity.edu.in
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -83,38 +99,45 @@ const Footer = () => {
 
         {/* SECTION 3 */}
         <div className="footer-section footer-right">
+          <div className="footer-text vertical-words">
+            <img
+              src="/assets/images/banner/footer-gif.gif"
+              alt="Lights Camera and Action"
+              className="vertical-image"
+            />
+          </div>
           <button
-            onClick={() => navigate("/apply-now")}
+            onClick={() =>
+              window.open(
+                "https://mituniversity.ac.in/bsc-msc-film-making-course-mit-pune/",
+                "_blank",
+              )
+            }
             className="button"
             id="footer-btn"
           >
             Join Now
           </button>
-          {/* <p className="footer-text vertical-words">
-            <span>Lights</span>
-            <span>Camera</span>
-            <span>and Action</span>
-          </p> */}
-          <p className="footer-text vertical-words">
-            <img
-              src="/assets/images/background/footer_icon.svg"
-              alt="Lights Camera and Action"
-              className="vertical-image"
-            />
-          </p>
+
+          {/* <button
+            onClick={() => navigate("/apply-now")}
+            className="button"
+            id="footer-btn"
+          >
+            Join Now
+          </button> */}
         </div>
       </div>
-       <span
-          className="back-to-top"
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          aria-label="Back to top"
-        >
-         <LuArrowUp />
-        </span>
+      <span
+        className="back-to-top"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        aria-label="Back to top"
+      >
+        <LuArrowUp />
+      </span>
       <p className="footer-bottom">
         Copyright © 2026 All rights reserved by Website Department MIT-ADT
         University.
-       
       </p>
     </footer>
   );

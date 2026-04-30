@@ -11,9 +11,9 @@ const Contact = () => {
   return (
     <>
       <InnerBanner bgImage={bgImage} title={title} subtitle={subtitle} />
-   
+
       <section className="contact-us">
-           <DividerWithTitle title="Cotact Us" />
+        <DividerWithTitle title="Contact Us" />
         <div className="contact-cards">
           {/* Address */}
           <div className="contact-card">
@@ -21,11 +21,11 @@ const Contact = () => {
               <img src="/assets/images/icons/contact/gps.webp" alt="Address" />
             </div>
             <div className="content">
-              <h4 className="innerpage-subtitle" style={{color:"#003153"}}>Address</h4>
+              <h4 className="innerpage-subtitle">Address</h4>
               <p>
-                MIT ADT University Campus, Rajbaugh, Loni-Kalbhor,
-                <br />
-                Pune - 412201, Maharashtra India.
+                School of Film & Television, MIT-ADT University Campus,
+                Rajbaugh, Pune-Solapur Highway, Loni - Kalbhor, Pune,
+                Maharashtra. 412201
               </p>
             </div>
           </div>
@@ -33,17 +33,21 @@ const Contact = () => {
           {/* Enquiry */}
           <div className="contact-card">
             <div className="icon">
-              <img src="/assets/images/icons/contact/phone.webp" alt="Enquiry" />
+              <img
+                src="/assets/images/icons/contact/phone.webp"
+                alt="Enquiry"
+              />
             </div>
             <div className="content">
               <h4 className="innerpage-subtitle">Enquiry</h4>
-              <p>
-                <span>Mobile :</span>
-                +9513237668 +91 86699 82310.
-              </p>
-              <p>
-                <span>Landline :</span>020-67652443
-              </p>
+              <ul className="page-list" style={{ listStyleType: "none" }}>
+                Mobile :
+                <li style={{ gap: "10px", color: "blue" }}>
+                  <a href="tel:+919021080157">+91-9021080127</a>
+                  <span> | </span>
+                  <a href="tel:+918669982310">+91-8669982310</a>
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -56,10 +60,15 @@ const Contact = () => {
               <h4 className="innerpage-subtitle">Connect</h4>
               <p>
                 <span>Email :</span>
-                 admissions.sft@mituniversity.edu.in
+                <a href="mailto:admissions.sft@mituniversity.edu.in">
+                  admissions.sft@mituniversity.edu.in
+                </a>
               </p>
               <p>
-                <span>Website :</span>www.mituniversity.ac.in
+                <span>Website :</span>
+                <a href="mailto:www.mituniversity.ac.in">
+                  www.mituniversity.ac.in
+                </a>
               </p>
             </div>
           </div>
@@ -67,14 +76,17 @@ const Contact = () => {
           {/* Working Hours */}
           <div className="contact-card">
             <div className="icon">
-              <img src="/assets/images/icons/contact/clock.webp" alt="Working Hours" />
+              <img
+                src="/assets/images/icons/contact/clock.webp"
+                alt="Working Hours"
+              />
             </div>
             <div className="content">
               <h4 className="innerpage-subtitle">Working Hours</h4>
               <p>
                 Monday – Friday
                 <br />
-                9:00 AM – 5:30 PM
+                09:00 AM – 05:30 PM
               </p>
             </div>
           </div>

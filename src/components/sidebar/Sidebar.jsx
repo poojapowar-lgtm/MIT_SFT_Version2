@@ -37,11 +37,12 @@
 
 // export default Sidebar;
 
-
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { CgMenuGridR } from "react-icons/cg";
 import { IoCloseOutline } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
+
 import "./sidebar.css";
 
 const Sidebar = ({ menuItems, onItemClick }) => {
@@ -71,8 +72,7 @@ const Sidebar = ({ menuItems, onItemClick }) => {
 
         <ul>
           {menuItems.map((item) => {
-            const isActive =
-              item.path && location.pathname.includes(item.path);
+            const isActive = item.path && location.pathname === item.path;
 
             return (
               <li
@@ -81,9 +81,16 @@ const Sidebar = ({ menuItems, onItemClick }) => {
                 onClick={() => handleItemClick(item)}
               >
                 {item.path ? (
-                  <Link to={item.path}>{item.name}</Link>
+                  <NavLink
+                    to={item.path}
+                    className={({ isActive }) =>
+                      isActive ? "active-link" : ""
+                    }
+                  >
+                    {item.name}
+                  </NavLink>
                 ) : (
-                  <span className="sidebar-link">{item.name}</span>
+                  <li className="sidebar-link">{item.name}</li>
                 )}
               </li>
             );
@@ -95,4 +102,3 @@ const Sidebar = ({ menuItems, onItemClick }) => {
 };
 
 export default Sidebar;
-

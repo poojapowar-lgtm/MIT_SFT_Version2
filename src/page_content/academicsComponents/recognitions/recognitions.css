@@ -13,6 +13,8 @@
 .rg-card {
   padding: 0;
   width: clamp(320px, 40vw, 420px);
+  border: none;
+  box-shadow: 0 4px 15px rgb(129, 128, 128);
 }
 
 .rec-image {
@@ -33,4 +35,3 @@
 #rec-btn {
   width: max-content;
 }
-

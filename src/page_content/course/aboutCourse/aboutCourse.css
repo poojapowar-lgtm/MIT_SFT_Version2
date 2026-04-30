@@ -7,7 +7,11 @@
   margin-bottom: clamp(20px, 3vw, 36px); 
 }
 
-
+.courses-header-right p{
+  color: #F28C28;
+  font-weight: 600;
+  margin: clamp(5px, 1vw,10px);
+}
 /* Specialization Section */
 /* .specialization-section {
   margin-top: clamp(2rem, 4vw, 4rem);

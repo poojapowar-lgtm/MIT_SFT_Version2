@@ -4,18 +4,19 @@
 
 /* GRID */
 .whythis-grid {
-  background-image: url("/public/assets/images/background/whyus.jpg");
+  /* background-image: url("/public/assets/images/background/whyus.jpg"); */
+  background-image: url("/public/assets/images/banner/bnr1.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-    display: flex;
-  flex-direction: column;   /* steps stacked */
-  align-items: flex-end;    /* 👉 push cards to right */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .whythis-card {
   position: relative;
-  padding: 20px 24px;
+  padding: clamp(15px, 1.2vw, 25px);
   background: rgba(0, 0, 0, 0.55);
   backdrop-filter: blur(4px);
   border-radius: 10px;
@@ -24,23 +25,38 @@
 }
 
 .whythis-title {
-  color: #fff;
-  font-size: clamp(16px, 2.5vw, 25px);
+  margin: 10px;
+  color: goldenrod;
+  font-size: clamp(14px, 1.5vw, 25px);
   font-weight: 600;
   position: relative;
   z-index: 2;
   text-align: right;
 }
 .step-animate {
-  opacity: 0;
-  transform: translateX(-30px);
-  animation: stepReveal 0.7s ease-out forwards;
+  animation: stepReveal 6s ease-in-out infinite;
 }
 
+.step-animate:hover {
+  animation-play-state: paused;
+}
 @keyframes stepReveal {
-  to {
+  0% {
     opacity: 1;
+    transform: translateX(clamp(10px, 1vw, 30px));
+    border-bottom: 1px solid white;
+  }
+
+  50% {
+    opacity: 0;
     transform: translateX(0);
+    border-bottom: 1px solid transparent;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(clamp(-10px, -1vw, -30px));
+    border-bottom: 1px solid white;
   }
 }
 .whythis-card::before {
@@ -60,5 +76,16 @@
 @keyframes borderGrow {
   to {
     transform: scaleY(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .whythis-grid {
+    align-items: center;
+    text-align: center;
+  }
+
+  .whythis-card {
+    width: 100%;
   }
 }

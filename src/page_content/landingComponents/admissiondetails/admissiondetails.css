@@ -12,9 +12,9 @@
 
 /* ACTIVE button → only border */
 .admission-buttons button.active {
-  background: transparent;
-  color: white;
-  border: 1px solid white;
+background: transparent;
+    color: black;
+    border: 1px solid black;
 }
 
 .admission-buttons button:hover {
@@ -45,7 +45,8 @@
   margin: 0 auto;
   max-width: clamp(320px, 90vw, 1000px);
   text-align: center;
-  color: wheat;
+  color: #0E0E55;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {

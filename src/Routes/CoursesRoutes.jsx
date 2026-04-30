@@ -6,8 +6,8 @@ import BaScreenacting from "../pages/BaScreenacting";
 
 export const CoursesRoutes = (
   <>
+    <Route path="/courses/ba-screen-acting" element={<BaScreenacting />} />
     <Route path="/courses/bsc-filmmaking" element={<BscFilmmaking />} />
-     <Route path="/courses/msc-filmmaking" element={<MscFilmmaking />} />
-      <Route path="/courses/ba-screen-acting" element={<BaScreenacting />} />
+    <Route path="/courses/msc-filmmaking" element={<MscFilmmaking />} />
   </>
 );

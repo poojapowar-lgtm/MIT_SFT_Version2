@@ -96,7 +96,7 @@ const AboutUs = () => {
 
   const menu = [
     { name: "About MIT-ADT", path: "about-mit" },
-    { name: "Leadership Message", path: "leadership" },
+    { name: "Leadership", path: "leadership" },
     { name: "Institute History", path: "history" },
     { name: "Vision & Mission", path: "vision-mission" },
     { name: "Unique Features", path: "features" },
@@ -106,7 +106,7 @@ const AboutUs = () => {
 
   // Title mapping only (no bg image here)
   const titleMap = {
-    leadership: "Leadership Message",
+    leadership: "Leadership",
     history: "Institute History",
     "vision-mission": "Vision & Mission",
     features: "Unique Features",

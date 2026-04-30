@@ -46,18 +46,18 @@ const Navbar = ({ open, onClose }) => {
 
             <ul className="submenu">
               <li>
+                <NavLink to="/courses/ba-screen-acting" onClick={onClose}>
+                  B.A. in Screen Acting
+                </NavLink>
+              </li>
+              <li>
                 <NavLink to="/courses/bsc-filmmaking" onClick={onClose}>
-                  B.Sc in Filmmaking
+                  B.Sc. in Filmmaking
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/courses/msc-filmmaking" onClick={onClose}>
-                  M.Sc in Filmmaking
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/courses/ba-screen-acting" onClick={onClose}>
-                  B.A Screen Acting
+                  M.Sc. in Filmmaking
                 </NavLink>
               </li>
             </ul>
@@ -113,15 +113,21 @@ const Navbar = ({ open, onClose }) => {
               <br />
               Maharashtra, India
             </p>
-
-            <div>
-              <p className="nav-contact">
-                09595124234
-                <br />
-                info@mituniversity.edu.in
-              </p>
-            </div>
           </address>
+
+          <ul className="page-list nav-contact">
+            <h2 style={{ fontWeight: "500" }}>Contact Us</h2>
+            <li style={{ gap: "10px" }}>
+              <a href="tel:+919021080157">+91-9021080127</a> |
+              <a href="tel:+918669982310">+91-8669982310</a>
+            </li>
+
+            <li>
+              <a href="mailto:admissions.sft@mituniversity.edu.in">
+                admissions.sft@mituniversity.edu.in
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>

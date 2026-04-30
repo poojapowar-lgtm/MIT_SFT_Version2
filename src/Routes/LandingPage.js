@@ -13,14 +13,14 @@ const LandingPage = () => {
   return (
     <>
       <LandingTop />
-      <NationalAwards />
       <DividerWithTitle title="Specializations Offered" />
       <Specialization />
+      <NationalAwards />
       <Career />
       <Programs />
       <ProgramHighlights />
       <AdmissionDetails />
-      <Footer/>
+      <Footer />
     </>
   );
 };

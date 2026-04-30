@@ -8,6 +8,7 @@ import Admission from "../page_content/admission/Admission.jsx";
 import Contact from "../page_content/contact/Contact.jsx";
 import AwardStories from "../page_content/awardstories/AwardStories.jsx";
 import ShortFilm from "../page_content/shortfilms/ShortFilms.jsx";
+import Filmaker from "../page_content/filmmaker.jsx";
 // import LandingPage from "./LandingPage.js";
 
 const MainRoutes = () => {
@@ -22,6 +23,7 @@ const MainRoutes = () => {
       <Route path="/award-stories" element={<AwardStories />} />
       <Route path="/short-film" element={<ShortFilm />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/filmaker" element={<Filmaker />} />
     </Routes>
   );
 };

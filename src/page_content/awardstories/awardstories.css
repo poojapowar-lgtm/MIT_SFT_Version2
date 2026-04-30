@@ -1,3 +1,24 @@
+.awards-section{
+  margin-bottom: clamp(10px, 2vw, 50px);
+}
+.awardstory-top {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: clamp(10px, 2vw, 20px);
+  padding: clamp(10px, 2vw, 20px) ;
+}
+
+.awardstory-top-image img {
+  max-height: clamp(200px, 50vw,400px);
+  object-fit: cover;
+}
+
+
+
 /* .awards-section {
   width: 100%;
   padding-top: 30px;

@@ -26,8 +26,9 @@
 }
 
 .admission-table th {
-  background-color: rgba(47, 49, 54, 0.9);
-  color: wheat;
+  background-color: #520c17;
+  color: goldenrod;
+  font-weight: 500;
 }
 
 /* stages */
@@ -68,6 +69,8 @@
   z-index: 1;
   height: auto;
   text-align: left;
+  border: none;
+  box-shadow: 0 4px 15px rgb(129, 128, 128);
 }
 
 .stage-cards.left .stage-card {
@@ -86,12 +89,15 @@
   left: 50%;
   width: 20px;
   height: 20px;
-  background-color: whitesmoke;
+  background-color: goldenrod;
   border-radius: 50%;
   transform: translateX(-50%);
   z-index: 1;
 }
 
+.stage-text{
+  margin: 0;
+}
 /* faq */
 .faq-wrapper {
     max-width: clamp(350px, 80vw, 1000px);
@@ -110,12 +116,16 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  font-size: clamp(14px, 2vw, 18px);   
+
 }
 
+.faq-que p{
+  color: #003153;
+  font-weight: 600;
+}
 .faq-icon {
   font-size: clamp(20px, 4vw, 30px);  
-  color: rgb(240, 61, 165);
+  color: #520c17;
 }
 
 @media (max-width: 768px) {
