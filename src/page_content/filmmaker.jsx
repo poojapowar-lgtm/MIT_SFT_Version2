@@ -3,13 +3,13 @@ import "./Filmaker.css";
 import DividerWithTitle from "../components/reuseable_components/DividerWithTitle/DividerWithTitle";
 
 const videos = [
-    "https://youtu.be/qlqxu1Kl7K8",
-    "https://youtube.com/shorts/IvIdxYKtyAA?feature=share",
-    "https://youtube.com/shorts/XFi7TtWfTGg?feature=share",
-    "https://youtube.com/shorts/CtwaQmWoR3A?feature=share",
-    "https://youtube.com/shorts/AgE0YE0k62E?feature=share",
-    "https://youtu.be/sCQhq5aOIs8",
-    "https://youtu.be/pOUGfuO8rLQ"
+    "https://www.youtube.com/embed/qlqxu1Kl7K8",
+    "https://www.youtube.com/embed/IvIdxYKtyAA",
+    "https://www.youtube.com/embed/XFi7TtWfTGg",
+    "https://www.youtube.com/embed/CtwaQmWoR3A",
+    "https://www.youtube.com/embed/AgE0YE0k62E",
+    "https://www.youtube.com/embed/sCQhq5aOIs8",
+    "https://www.youtube.com/embed/pOUGfuO8rLQ"
 ];
 
 const Filmaker = () => {

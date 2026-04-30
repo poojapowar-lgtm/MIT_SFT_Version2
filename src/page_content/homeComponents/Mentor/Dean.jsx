@@ -50,7 +50,7 @@ const Dean = () => {
                             className="button"
                             onClick={() => navigate("/filmaker")} style={{marginTop:"5px"}}
                         >
-                          Know More
+                          Check the Cine Craft 101 prer series
                         </button>
                     </div>
 
